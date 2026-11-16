@@ -1,5 +1,9 @@
 # AFA tokenizer: figure qualitative offline
 
+[Tutti i frame dei 12 episodi: nuove immagini pulite](full_episodes/GALLERY.md)
+
+**Versione aggiornata:** 4.117 osservazioni per policy, selezione successiva di otto frame per sequenza. Le raccolte e le statistiche riportate sotto si riferiscono ai precedenti campioni esplorativi.
+
 [Nuove figure in stile paper: DINO→AFA e confronto TurboVLA](paper_style/README.md)
 
 [Figure selezionate per la tesi: principali e appendice](thesis/GALLERY.md)

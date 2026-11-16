@@ -1,0 +1,82 @@
+{
+  "episodes": [
+    {
+      "name": "failure_task1_ep000",
+      "frames": 216,
+      "expected": 216,
+      "seconds": 18.896405125036836
+    },
+    {
+      "name": "failure_task1_ep001",
+      "frames": 316,
+      "expected": 316,
+      "seconds": 27.103245737031102
+    },
+    {
+      "name": "failure_task2_ep000",
+      "frames": 309,
+      "expected": 309,
+      "seconds": 26.33673439361155
+    },
+    {
+      "name": "failure_task2_ep001",
+      "frames": 471,
+      "expected": 471,
+      "seconds": 39.89207858964801
+    },
+    {
+      "name": "failure_task3_ep000",
+      "frames": 582,
+      "expected": 582,
+      "seconds": 49.9748083204031
+    },
+    {
+      "name": "failure_task3_ep001",
+      "frames": 283,
+      "expected": 283,
+      "seconds": 24.265981471166015
+    },
+    {
+      "name": "verified_demo_task1_ep000",
+      "frames": 319,
+      "expected": 319,
+      "seconds": 27.213977130129933
+    },
+    {
+      "name": "verified_demo_task1_ep049",
+      "frames": 249,
+      "expected": 249,
+      "seconds": 21.30295822583139
+    },
+    {
+      "name": "verified_demo_task2_ep050",
+      "frames": 365,
+      "expected": 365,
+      "seconds": 31.27982262149453
+    },
+    {
+      "name": "verified_demo_task2_ep099",
+      "frames": 295,
+      "expected": 295,
+      "seconds": 25.398279709741473
+    },
+    {
+      "name": "verified_demo_task3_ep100",
+      "frames": 440,
+      "expected": 440,
+      "seconds": 37.635890796780586
+    },
+    {
+      "name": "verified_demo_task3_ep149",
+      "frames": 272,
+      "expected": 272,
+      "seconds": 23.446459790691733
+    }
+  ],
+  "expected_frames": 4117,
+  "completed_frames": 4117,
+  "hook_checks": 36,
+  "hook_max_error": 0.0,
+  "max_video_sync_error_s": 8.900960288826809e-07,
+  "cls_eager_max_error": 1.341104507446289e-07
+}

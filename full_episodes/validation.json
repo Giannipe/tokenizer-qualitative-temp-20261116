@@ -1,0 +1,22 @@
+{
+  "identical_saved_preprocessing": true,
+  "episodes_per_policy": 12,
+  "complete_frames_per_policy": {
+    "turbovla_afa": 4117,
+    "turbovla": 4117
+  },
+  "routing_sum_max_error": 4.76837158203125e-07,
+  "keypoint_reconstruction_max_error": 7.35600396040148e-07,
+  "all_arrays_finite": true,
+  "hook_checks_per_policy": 36,
+  "hook_prediction_max_difference": 0.0,
+  "clean_png_pdf_pairs": 48,
+  "minimal_labels_png_pdf_pairs": 48,
+  "selected_camera_sequences": 24,
+  "frames_per_strip": 8,
+  "metrics_rows": 131744,
+  "crop_is_display_only": true,
+  "figure_top_row_matches_selected_rgb": true,
+  "figure_gutters_white": true,
+  "figure_outer_margins_px": 0
+}
