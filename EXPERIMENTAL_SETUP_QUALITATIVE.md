@@ -1,5 +1,7 @@
 # Analisi qualitativa offline del tokenizer AFA
 
+**Distinzione fra le due analisi.** Le sezioni 1–13 descrivono la prima raccolta esplorativa: 60 osservazioni di fallimenti e dimostrazioni verificate. Le nuove figure in stile paper DINO→AFA e il confronto TurboVLA usano invece **42 osservazioni dei soli sei episodi verificati**, con due checkpoint. Il protocollo aggiornato è in [paper_style/README.md](paper_style/README.md); la sezione 14 riporta un testo inglese riferito a queste nuove figure. I due campioni non vanno confusi nella descrizione dell'Experimental Setup.
+
 Questo documento descrive il protocollo usato per produrre le figure qualitative di TurboVLA-AFA: selezione delle osservazioni, inferenza sul checkpoint, estrazione dei tensori interni, costruzione delle visualizzazioni e criteri di interpretazione. La sezione finale propone un testo in inglese adattabile all'Experimental Setup della tesi.
 
 Le visualizzazioni derivano dai tensori del modello e dalle immagini registrate. Nessuna figura è generata con un modello di image generation e nessuna segmentazione manuale viene usata per costruire le mappe.
@@ -383,6 +385,16 @@ All figures were generated from saved model tensors without further training. In
 Nel repository delle figure gli script sono [`scripts/tokenizer_qualitative.py`](https://github.com/Giannipe/tokenizer-qualitative-temp-20261116/blob/main/scripts/tokenizer_qualitative.py) per l'estrazione e [`scripts/plot_tokenizer_qualitative.py`](https://github.com/Giannipe/tokenizer-qualitative-temp-20261116/blob/main/scripts/plot_tokenizer_qualitative.py) per il rendering. Nella workspace originale si trovano sotto `SOT_Gianni/gap_policy/scripts/`.
 
 Il [protocollo operativo della repository](https://github.com/Giannipe/tokenizer-qualitative-temp-20261116/blob/main/PROTOCOL.md) contiene i comandi di rigenerazione e le didascalie. La [galleria delle figure](https://github.com/Giannipe/tokenizer-qualitative-temp-20261116/blob/main/GALLERY.md) permette di consultare le sei famiglie di tavole. Questo documento descrive il setup e il significato delle misure; eventuali interpretazioni dei singoli fallimenti vanno sviluppate separatamente nella discussione dei risultati.
+
+## 14. Testo inglese per le nuove figure DINO→AFA e il confronto TurboVLA
+
+### Paired backbone and tokenizer visualization
+
+For the compact qualitative figures, we replayed the same six verified demonstrations through the fine-tuned TurboVLA-AFA early-BERT and TurboVLA VLI checkpoints. The observation set comprised 30 frames sampled at five fixed relative times in each episode and 12 additional frames selected by RGB inspection of manipulation events, yielding 42 observations and 84 camera views per checkpoint. The original exploratory failure-versus-demonstration analysis used a separate 60-observation selection. All demonstrations were training examples, and no actions were executed during offline analysis.
+
+We extracted final-layer DINOv3 CLS-to-patch attention by replaying the query/key computation, including rotary positional embeddings, on the exact hidden states encountered during the normal forward pass. The production SDPA computation was preserved. Attention was averaged over 12 heads, CLS/register keys were excluded, and patch weights were spatially normalized. The retained patch mass before normalization was reported separately. We contrasted this backbone diagnostic with four fixed AFA spatial pooling maps from the same checkpoint and inputs. All maps shared a logarithmic attention-relative-to-uniform scale, clipped between 1× and 8×. Temporal panels retained the same four query identities across all displayed frames; individual slots were not reordered to maximize apparent object correspondence.
+
+Supporting figures compared the same CLS diagnostic in the two fine-tuned backbones and the final ACT cross-attention of the two policies. The ACT comparison displayed dense token-position weights for TurboVLA and a projection through tokenizer maps for AFA, with conditional spatial normalization and absolute camera attention mass reported separately. These diagnostics do not constitute a causal tokenizer ablation: the policies also differ in VLI versus early-BERT interaction, and the AFA projection precedes subsequent token mixing. Instrumented and uninstrumented predictions were compared on every selected observation for both policies, obtaining zero maximum absolute difference. All displayed RGB inputs were verified identical across the two policies.
 
 ## 14. Tavole curate per il testo principale e l'appendice
 
