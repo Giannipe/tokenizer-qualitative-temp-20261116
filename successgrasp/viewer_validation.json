@@ -1,0 +1,39 @@
+{
+  "browser": "Chromium 130 headless",
+  "file_protocol": true,
+  "all_seven_modes_work": true,
+  "modes": {
+    "overview": [
+      774,
+      582
+    ],
+    "attention": [
+      1033,
+      777
+    ],
+    "routing": [
+      1033,
+      777
+    ],
+    "query": [
+      774,
+      192
+    ],
+    "policies": [
+      1292,
+      192
+    ],
+    "geometry": [
+      774,
+      192
+    ],
+    "representations": [
+      1033,
+      192
+    ]
+  },
+  "last_episode_last_frame_loaded": true,
+  "query15_and_wrist_camera_tested": true,
+  "canvas_png_download": true,
+  "page_errors": []
+}

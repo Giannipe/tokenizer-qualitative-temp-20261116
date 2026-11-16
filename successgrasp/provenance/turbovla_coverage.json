@@ -1,0 +1,34 @@
+{
+  "expected_frames": 706,
+  "completed_frames": 706,
+  "hook_checks": 706,
+  "hook_max_error": 0.0,
+  "max_video_sync_error_s": 4.450480162176973e-07,
+  "episodes": [
+    {
+      "episode": 0,
+      "expected_frames": 349,
+      "saved_frames": 349
+    },
+    {
+      "episode": 1,
+      "expected_frames": 357,
+      "saved_frames": 357
+    }
+  ],
+  "dino_layer_eager_errors": {
+    "0": 0.0,
+    "1": 0.0,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 0.0,
+    "5": 0.0,
+    "6": 0.0,
+    "7": 0.0,
+    "8": 0.0,
+    "9": 0.0,
+    "10": 0.0,
+    "11": 0.0
+  },
+  "peak_cuda_MiB": 855.546875
+}

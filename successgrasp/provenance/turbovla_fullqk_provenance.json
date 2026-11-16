@@ -1,0 +1,5 @@
+{
+  "wrapper_sha256": "ab3ed0ec53c2e8f9172ff2a7336c7adc7aaa8d78040a5e4411098534596fdcf0",
+  "base_source_sha256": "9563a0badd4d13c33d1e913649372d60c9c4bdef17c38c0a7e2137981c333c74",
+  "diagnostic": "full-matrix QK matching eager; all DINO layers; production SDPA unchanged"
+}
