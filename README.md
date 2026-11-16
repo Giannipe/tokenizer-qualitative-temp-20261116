@@ -1,5 +1,7 @@
 # AFA tokenizer: figure qualitative offline
 
+[Figure selezionate per la tesi: principali e appendice](thesis/GALLERY.md)
+
 [Experimental Setup: metodo e significato delle figure](EXPERIMENTAL_SETUP_QUALITATIVE.md)
 
 Archivio temporaneo privato per consultare e scaricare le figure della tesi. I PDF e PNG originali sono in `analysis/figures/`; gli script sono in `scripts/`.

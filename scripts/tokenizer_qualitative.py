@@ -100,13 +100,26 @@ def extract(args):
     torch.manual_seed(0)
     if args.device.startswith("cuda") and not torch.cuda.is_available():
         raise RuntimeError("CUDA unavailable; use --device cpu for offline extraction")
-    records = build_manifest(args)
+    if args.selection_manifest:
+        selection = json.loads(args.selection_manifest.read_text())
+        records = selection["records"]
+        if not records or len({r["id"] for r in records}) != len(records):
+            raise ValueError("Selection must contain unique, nonempty observation records")
+        for record in records:
+            if not 0 <= record["frame"] < record["episode_metadata"]["length"]:
+                raise ValueError(f"Selected frame is outside the episode: {record['id']}")
+    else:
+        records = build_manifest(args)
     args.output.mkdir(parents=True, exist_ok=True)
     checkpoint = args.checkpoint.resolve()
     manifest = dict(checkpoint=str(checkpoint), checkpoint_sha256=sha256(checkpoint / "model.safetensors"),
                     config=json.loads((checkpoint / "config.json").read_text()),
                     selection="Both failure episodes; first and last verified episode per task; fixed relative times",
                     records=records, device=args.device, torch_version=torch.__version__)
+    if args.selection_manifest:
+        manifest["selection"] = "Manually selected RGB event frames; see selection manifest and figure captions"
+        manifest["selection_source"] = str(args.selection_manifest.resolve())
+        manifest["selection_sha256"] = sha256(args.selection_manifest)
     manifest["sources"] = []
     for root in dict.fromkeys(record["root"] for record in records):
         root = Path(root)
@@ -267,6 +280,8 @@ def main():
     parser.add_argument("--failure-root", type=Path, required=True)
     parser.add_argument("--success-root", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument("--selection-manifest", type=Path,
+                        help="Optional JSON with explicit observation records selected from RGB event inspection")
     parser.add_argument("--device", default="cpu")
     parser.add_argument("--threads", type=int, default=4)
     parser.add_argument("--fractions", type=float, nargs="+", default=[0.1, 0.3, 0.5, 0.7, 0.9])

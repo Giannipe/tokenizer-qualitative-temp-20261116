@@ -1,0 +1,283 @@
+{
+  "figures": [
+    {
+      "id": "M01_target_selection",
+      "family": "main",
+      "title": "Target selection across recorded episodes",
+      "caption": "Recorded target-selection contrast: verified demonstration episode 50 and failed rollout episode 0. The instruction asks for the plush; the verified demonstration moves the plush toward the box, whereas the illustrated failed rollout transports the red cube. Each block shows front RGB above the spatial attention of the same wrist query S06. Frames were chosen by inspecting visible interactions, at the timestamps shown; they are not matched initial states. All maps use the same attention/uniform scale. This illustrates that query identity and language conditioning do not guarantee object-category-consistent spatial pooling. It does not establish that this query caused the wrong-object action. Demonstrations are recorded training examples, not closed-loop successes measured in this analysis.",
+      "png": "main/M01_target_selection.png",
+      "pdf": "main/M01_target_selection.pdf",
+      "sequences": [
+        "plush_demo",
+        "plush_failure"
+      ],
+      "slots": [
+        6
+      ],
+      "view": "front RGB + wrist attention"
+    },
+    {
+      "id": "M02_cube_slot_evolution",
+      "family": "main",
+      "title": "Slot attention during cube placement",
+      "caption": "Temporal evolution in a verified cube-placement demonstration (episode 49). The top row shows RGB; subsequent rows show the same learned queries S05, S11 and S15 at four selected interaction stages. Query IDs and display scales remain fixed. Maps may overlap or shift between scene regions; no instance tracking or per-frame query reassignment is performed. H is normalized spatial entropy. This is offline replay of a recorded demonstration, not a policy success measured in this analysis.",
+      "png": "main/M02_cube_slot_evolution.png",
+      "pdf": "main/M02_cube_slot_evolution.pdf",
+      "sequences": [
+        "cube_demo"
+      ],
+      "slots": [
+        5,
+        11,
+        15
+      ],
+      "view": 0
+    },
+    {
+      "id": "M03_pooling_diversity",
+      "family": "main",
+      "title": "Concentrated, diffuse and overlapping pooling",
+      "caption": "Illustrative spatial pooling patterns in one observation. S00 and S01 attend to similar robot regions, S04 is diffuse, and S05 is more concentrated. All 16 attention-weighted means are shown for context. The four slots were selected to expose overlap, diffusion and concentration, rather than as a random sample or evidence for object-instance segmentation. H is normalized spatial entropy. Full 16-slot coverage is provided in the appendix; black image padding remains visible and is included in all statistics.",
+      "png": "main/M03_pooling_diversity.png",
+      "pdf": "main/M03_pooling_diversity.pdf",
+      "sequences": [
+        "cube_detail"
+      ],
+      "slots": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "view": 0
+    },
+    {
+      "id": "M04_tool_slot_evolution",
+      "family": "main",
+      "title": "Slot attention during tool use",
+      "caption": "Alternative main-text temporal example from verified tool-use demonstration episode 149. The same wrist queries S06, S09 and S13 are shown while the visible scene changes from approach to tool/cube interaction and a late frame. In contrast to concentrated queries, S09 also reveals diffuse/background pooling. Full input padding is retained. These query IDs do not imply named object categories.",
+      "png": "main/M04_tool_slot_evolution.png",
+      "pdf": "main/M04_tool_slot_evolution.pdf",
+      "sequences": [
+        "tool_demo"
+      ],
+      "slots": [
+        6,
+        9,
+        13
+      ],
+      "view": 1
+    },
+    {
+      "id": "A01_cube_spatial_language",
+      "family": "appendix",
+      "title": "Cube placement: spatial and language attention",
+      "caption": "Spatial\u2013language correspondence for front queries S05, S11, S15, S04. Rows align the same fixed query across three selected frames with its early-BERT attention distribution. All BERT tokens, including [CLS] and [SEP], are retained; values are absolute probabilities averaged over 12 heads, displayed on a common [0, 0.5] scale and rounded to two decimals. The spatial maps use a shared log attention/uniform scale. In this checkpoint the early-BERT query attention is computed before image pooling, so it is invariant across these frames for the same instruction and camera; it is shown once. A high weight on an object word is not evidence that the spatial map segments that object. Selection is illustrative, not an alignment-accuracy evaluation.",
+      "png": "appendix/A01_cube_spatial_language.png",
+      "pdf": "appendix/A01_cube_spatial_language.pdf",
+      "sequences": [
+        "cube_demo"
+      ],
+      "slots": [
+        5,
+        11,
+        15,
+        4
+      ],
+      "view": 0
+    },
+    {
+      "id": "A02_failure_spatial_language",
+      "family": "appendix",
+      "title": "Wrong-object rollout: spatial and language attention",
+      "caption": "Spatial\u2013language correspondence for wrist queries S03, S06, S13, S09. Rows align the same fixed query across three selected frames with its early-BERT attention distribution. All BERT tokens, including [CLS] and [SEP], are retained; values are absolute probabilities averaged over 12 heads, displayed on a common [0, 0.5] scale and rounded to two decimals. The spatial maps use a shared log attention/uniform scale. In this checkpoint the early-BERT query attention is computed before image pooling, so it is invariant across these frames for the same instruction and camera; it is shown once. A high weight on an object word is not evidence that the spatial map segments that object. Selection is illustrative, not an alignment-accuracy evaluation.",
+      "png": "appendix/A02_failure_spatial_language.png",
+      "pdf": "appendix/A02_failure_spatial_language.pdf",
+      "sequences": [
+        "plush_failure"
+      ],
+      "slots": [
+        3,
+        6,
+        13,
+        9
+      ],
+      "view": 1
+    },
+    {
+      "id": "A03_tool_spatial_language",
+      "family": "appendix",
+      "title": "Tool use: spatial and language attention",
+      "caption": "Spatial\u2013language correspondence for wrist queries S03, S06, S13, S09. Rows align the same fixed query across three selected frames with its early-BERT attention distribution. All BERT tokens, including [CLS] and [SEP], are retained; values are absolute probabilities averaged over 12 heads, displayed on a common [0, 0.5] scale and rounded to two decimals. The spatial maps use a shared log attention/uniform scale. In this checkpoint the early-BERT query attention is computed before image pooling, so it is invariant across these frames for the same instruction and camera; it is shown once. A high weight on an object word is not evidence that the spatial map segments that object. Selection is illustrative, not an alignment-accuracy evaluation.",
+      "png": "appendix/A03_tool_spatial_language.png",
+      "pdf": "appendix/A03_tool_spatial_language.pdf",
+      "sequences": [
+        "tool_demo"
+      ],
+      "slots": [
+        3,
+        6,
+        13,
+        9
+      ],
+      "view": 1
+    },
+    {
+      "id": "A04_all_query_word_maps",
+      "family": "appendix",
+      "title": "All query-to-word distributions",
+      "caption": "Complete early-BERT query-to-word attention for all 16 queries, three tasks and two cameras. Rows are query IDs and columns are the actual BERT tokens, including special tokens. Every panel uses the same absolute-probability color range. Poolers and early-BERT modules are separate across cameras; matching IDs across front and wrist do not imply matched semantic roles.",
+      "png": "appendix/A04_all_query_word_maps.png",
+      "pdf": "appendix/A04_all_query_word_maps.pdf",
+      "sequences": [
+        "cube_demo",
+        "plush_demo",
+        "tool_demo"
+      ],
+      "slots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "view": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "A05_all_slots_cube_front",
+      "family": "appendix",
+      "title": "Complete spatial attention atlas",
+      "caption": "All 16 spatial attention maps for one selected observation, using the same RGB, interpolation and attention/uniform scale as the main figures. No query is omitted. H denotes normalized spatial entropy over all 256 patches, including the black padding. Query labels denote learned identities, not annotated object classes.",
+      "png": "appendix/A05_all_slots_cube_front.png",
+      "pdf": "appendix/A05_all_slots_cube_front.pdf",
+      "sequences": [
+        "cube_detail"
+      ],
+      "slots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "view": 0
+    },
+    {
+      "id": "A06_all_slots_failure_wrist",
+      "family": "appendix",
+      "title": "Complete spatial attention atlas",
+      "caption": "All 16 spatial attention maps for one selected observation, using the same RGB, interpolation and attention/uniform scale as the main figures. No query is omitted. H denotes normalized spatial entropy over all 256 patches, including the black padding. Query labels denote learned identities, not annotated object classes.",
+      "png": "appendix/A06_all_slots_failure_wrist.png",
+      "pdf": "appendix/A06_all_slots_failure_wrist.pdf",
+      "sequences": [
+        "plush_failure"
+      ],
+      "slots": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "view": 1
+    },
+    {
+      "id": "A07_tool_failure_evolution",
+      "family": "appendix",
+      "title": "Tool-task failure: fixed-query evolution",
+      "caption": "Temporal spatial pooling for selected front queries in recorded tool-task failure episode 0. This sequence supplements the verified tool-use example. Timestamps and scene configurations differ across episodes; the figure is illustrative and does not isolate outcome as an experimental variable.",
+      "png": "appendix/A07_tool_failure_evolution.png",
+      "pdf": "appendix/A07_tool_failure_evolution.pdf",
+      "sequences": [
+        "tool_failure"
+      ],
+      "slots": [
+        5,
+        11,
+        15
+      ],
+      "view": 0
+    },
+    {
+      "id": "A08_demo_spatial_language",
+      "family": "appendix",
+      "title": "Verified demonstration: spatial and language attention",
+      "caption": "Spatial\u2013language correspondence for wrist queries S03, S06, S13, S09. Rows align the same fixed query across three selected frames with its early-BERT attention distribution. All BERT tokens, including [CLS] and [SEP], are retained; values are absolute probabilities averaged over 12 heads, displayed on a common [0, 0.5] scale and rounded to two decimals. The spatial maps use a shared log attention/uniform scale. In this checkpoint the early-BERT query attention is computed before image pooling, so it is invariant across these frames for the same instruction and camera; it is shown once. A high weight on an object word is not evidence that the spatial map segments that object. Selection is illustrative, not an alignment-accuracy evaluation.",
+      "png": "appendix/A08_demo_spatial_language.png",
+      "pdf": "appendix/A08_demo_spatial_language.pdf",
+      "sequences": [
+        "plush_demo"
+      ],
+      "slots": [
+        3,
+        6,
+        13,
+        9
+      ],
+      "view": 1
+    }
+  ],
+  "attention_scale": "log2 lift over uniform, clipped to [0,3]",
+  "spatial_overlay_opacity": "0.62 * displayed_log2_lift / 3",
+  "dpi": 300,
+  "preserves_full_preprocessed_rgb_including_padding": true,
+  "language_scale": [
+    0,
+    0.5
+  ],
+  "language_frame_max_abs_difference": {
+    "cube_demo_front": 0.0,
+    "cube_demo_wrist": 0.0,
+    "plush_demo_front": 0.0,
+    "plush_demo_wrist": 0.0,
+    "plush_failure_front": 0.0,
+    "plush_failure_wrist": 0.0,
+    "tool_demo_front": 0.0,
+    "tool_demo_wrist": 0.0,
+    "tool_failure_front": 0.0,
+    "tool_failure_wrist": 0.0,
+    "cube_detail_front": 0.0,
+    "cube_detail_wrist": 0.0
+  },
+  "same_instruction_demo_failure_language_max_abs_difference": {
+    "front": 0.0,
+    "wrist": 0.0
+  },
+  "renderer_sha256": "32d08c823b710ef8edaab2a0d56e1918372f3c539a484d14a42b552e5d6dc8fb"
+}

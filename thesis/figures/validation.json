@@ -1,0 +1,12 @@
+{
+  "main_figures": 4,
+  "appendix_figures": 8,
+  "png_verified": 12,
+  "pdf_verified": 12,
+  "png_dpi": 300,
+  "all_gallery_links_valid": true,
+  "fixed_slot_choices_saved": true,
+  "language_probabilities_not_clipped": true,
+  "temporal_language_max_difference": 0.0,
+  "renderer_sha256": "32d08c823b710ef8edaab2a0d56e1918372f3c539a484d14a42b552e5d6dc8fb"
+}

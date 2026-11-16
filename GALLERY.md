@@ -1,5 +1,7 @@
 # Galleria AFA tokenizer
 
+[Figure selezionate per la tesi: principali e appendice](thesis/GALLERY.md)
+
 Tutte le 104 tavole sono disponibili in PNG a 300 dpi e PDF. Apri una sezione per visualizzare le immagini.
 
 [Protocollo e didascalie](PROTOCOL.md) · [Riepilogo](README.md)

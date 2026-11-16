@@ -1,0 +1,8 @@
+{
+  "observations": 21,
+  "camera_views": 42,
+  "all_tensors_finite": true,
+  "max_keypoint_reconstruction_error": 7.647105750852035e-07,
+  "max_video_sync_error_s": 3.8146972691777137e-07,
+  "hook_prediction_max_abs_error": 0.0
+}

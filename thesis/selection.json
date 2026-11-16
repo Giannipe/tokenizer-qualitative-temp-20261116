@@ -1,0 +1,862 @@
+{
+  "method": "Purposive illustrative selection from recorded RGB contact sheets, not random sampling or a controlled outcome comparison",
+  "selection_notes": [
+    "All frame choices are recorded; scenes and timings differ between episodes.",
+    "Sequence labels describe visible stages, not ground-truth event annotations.",
+    "Slot identity is fixed within each sequence; no slot matching is performed across frames.",
+    "Use the original complete 60-observation analysis as the broader audit set."
+  ],
+  "sequences": [
+    {
+      "name": "cube_demo",
+      "task_id": 1,
+      "group": "verified_demo",
+      "episode": 49,
+      "frames": [
+        37,
+        112,
+        161,
+        236
+      ],
+      "stages": [
+        "Approach",
+        "Grasp",
+        "Transfer",
+        "Placement"
+      ],
+      "record_ids": [
+        "task1_verified_demo_ep049_f00037",
+        "task1_verified_demo_ep049_f00112",
+        "task1_verified_demo_ep049_f00161",
+        "task1_verified_demo_ep049_f00236"
+      ]
+    },
+    {
+      "name": "plush_demo",
+      "task_id": 2,
+      "group": "verified_demo",
+      "episode": 50,
+      "frames": [
+        18,
+        91,
+        164,
+        309
+      ],
+      "stages": [
+        "Approach",
+        "Grasp region",
+        "Box interaction",
+        "Late frame"
+      ],
+      "record_ids": [
+        "task2_verified_demo_ep050_f00018",
+        "task2_verified_demo_ep050_f00091",
+        "task2_verified_demo_ep050_f00164",
+        "task2_verified_demo_ep050_f00309"
+      ]
+    },
+    {
+      "name": "plush_failure",
+      "task_id": 2,
+      "group": "failure",
+      "episode": 0,
+      "frames": [
+        15,
+        108,
+        200,
+        293
+      ],
+      "stages": [
+        "Approach",
+        "Cube grasp region",
+        "Transfer",
+        "Late frame"
+      ],
+      "record_ids": [
+        "task2_failure_ep000_f00015",
+        "task2_failure_ep000_f00108",
+        "task2_failure_ep000_f00200",
+        "task2_failure_ep000_f00293"
+      ]
+    },
+    {
+      "name": "tool_demo",
+      "task_id": 3,
+      "group": "verified_demo",
+      "episode": 149,
+      "frames": [
+        14,
+        95,
+        176,
+        257
+      ],
+      "stages": [
+        "Approach",
+        "Tool grasp region",
+        "Cube interaction",
+        "Late frame"
+      ],
+      "record_ids": [
+        "task3_verified_demo_ep149_f00014",
+        "task3_verified_demo_ep149_f00095",
+        "task3_verified_demo_ep149_f00176",
+        "task3_verified_demo_ep149_f00257"
+      ]
+    },
+    {
+      "name": "tool_failure",
+      "task_id": 3,
+      "group": "failure",
+      "episode": 0,
+      "frames": [
+        29,
+        145,
+        378,
+        552
+      ],
+      "stages": [
+        "Approach",
+        "Grasp region",
+        "Interaction",
+        "Late frame"
+      ],
+      "record_ids": [
+        "task3_failure_ep000_f00029",
+        "task3_failure_ep000_f00145",
+        "task3_failure_ep000_f00378",
+        "task3_failure_ep000_f00552"
+      ]
+    },
+    {
+      "name": "cube_detail",
+      "task_id": 1,
+      "group": "failure",
+      "episode": 0,
+      "frames": [
+        108
+      ],
+      "stages": [
+        "Diagnostic frame"
+      ],
+      "record_ids": [
+        "task1_failure_ep000_f00108"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "task1_verified_demo_ep049_f00037",
+      "root": "/data2/gpepe/datasets/Multi-task-verified-9bd90be",
+      "group": "verified_demo",
+      "task": "Grab the red cube and place on the gray block",
+      "task_id": 1,
+      "episode": 49,
+      "frame": 37,
+      "fraction": 0.14919354838709678,
+      "fps": 30,
+      "episode_metadata": {
+        "episode_index": 49,
+        "tasks": [
+          "Grab the red cube and place on the gray block"
+        ],
+        "length": 249,
+        "data/chunk_index": 0,
+        "data/file_index": 1,
+        "dataset_from_index": 15638,
+        "dataset_to_index": 15887,
+        "videos/observation.images.front/chunk_index": 0,
+        "videos/observation.images.front/file_index": 1,
+        "videos/observation.images.front/from_timestamp": 8.7,
+        "videos/observation.images.front/to_timestamp": 17.0,
+        "videos/observation.images.wrist/chunk_index": 0,
+        "videos/observation.images.wrist/file_index": 1,
+        "videos/observation.images.wrist/from_timestamp": 8.7,
+        "videos/observation.images.wrist/to_timestamp": 17.0,
+        "meta/episodes/chunk_index": 0,
+        "meta/episodes/file_index": 1
+      },
+      "selection_sequence": "cube_demo",
+      "selection_stage": "Approach"
+    },
+    {
+      "id": "task1_verified_demo_ep049_f00112",
+      "root": "/data2/gpepe/datasets/Multi-task-verified-9bd90be",
+      "group": "verified_demo",
+      "task": "Grab the red cube and place on the gray block",
+      "task_id": 1,
+      "episode": 49,
+      "frame": 112,
+      "fraction": 0.45161290322580644,
+      "fps": 30,
+      "episode_metadata": {
+        "episode_index": 49,
+        "tasks": [
+          "Grab the red cube and place on the gray block"
+        ],
+        "length": 249,
+        "data/chunk_index": 0,
+        "data/file_index": 1,
+        "dataset_from_index": 15638,
+        "dataset_to_index": 15887,
+        "videos/observation.images.front/chunk_index": 0,
+        "videos/observation.images.front/file_index": 1,
+        "videos/observation.images.front/from_timestamp": 8.7,
+        "videos/observation.images.front/to_timestamp": 17.0,
+        "videos/observation.images.wrist/chunk_index": 0,
+        "videos/observation.images.wrist/file_index": 1,
+        "videos/observation.images.wrist/from_timestamp": 8.7,
+        "videos/observation.images.wrist/to_timestamp": 17.0,
+        "meta/episodes/chunk_index": 0,
+        "meta/episodes/file_index": 1
+      },
+      "selection_sequence": "cube_demo",
+      "selection_stage": "Grasp"
+    },
+    {
+      "id": "task1_verified_demo_ep049_f00161",
+      "root": "/data2/gpepe/datasets/Multi-task-verified-9bd90be",
+      "group": "verified_demo",
+      "task": "Grab the red cube and place on the gray block",
+      "task_id": 1,
+      "episode": 49,
+      "frame": 161,
+      "fraction": 0.6491935483870968,
+      "fps": 30,
+      "episode_metadata": {
+        "episode_index": 49,
+        "tasks": [
+          "Grab the red cube and place on the gray block"
+        ],
+        "length": 249,
+        "data/chunk_index": 0,
+        "data/file_index": 1,
+        "dataset_from_index": 15638,
+        "dataset_to_index": 15887,
+        "videos/observation.images.front/chunk_index": 0,
+        "videos/observation.images.front/file_index": 1,
+        "videos/observation.images.front/from_timestamp": 8.7,
+        "videos/observation.images.front/to_timestamp": 17.0,
+        "videos/observation.images.wrist/chunk_index": 0,
+        "videos/observation.images.wrist/file_index": 1,
+        "videos/observation.images.wrist/from_timestamp": 8.7,
+        "videos/observation.images.wrist/to_timestamp": 17.0,
+        "meta/episodes/chunk_index": 0,
+        "meta/episodes/file_index": 1
+      },
+      "selection_sequence": "cube_demo",
+      "selection_stage": "Transfer"
+    },
+    {
+      "id": "task1_verified_demo_ep049_f00236",
+      "root": "/data2/gpepe/datasets/Multi-task-verified-9bd90be",
+      "group": "verified_demo",
+      "task": "Grab the red cube and place on the gray block",
+      "task_id": 1,
+      "episode": 49,
+      "frame": 236,
+      "fraction": 0.9516129032258065,
+      "fps": 30,
+      "episode_metadata": {
+        "episode_index": 49,
+        "tasks": [
+          "Grab the red cube and place on the gray block"
+        ],
+        "length": 249,
+        "data/chunk_index": 0,
+        "data/file_index": 1,
+        "dataset_from_index": 15638,
+        "dataset_to_index": 15887,
+        "videos/observation.images.front/chunk_index": 0,
+        "videos/observation.images.front/file_index": 1,
+        "videos/observation.images.front/from_timestamp": 8.7,
+        "videos/observation.images.front/to_timestamp": 17.0,
+        "videos/observation.images.wrist/chunk_index": 0,
+        "videos/observation.images.wrist/file_index": 1,
+        "videos/observation.images.wrist/from_timestamp": 8.7,
+        "videos/observation.images.wrist/to_timestamp": 17.0,
+        "meta/episodes/chunk_index": 0,
+        "meta/episodes/file_index": 1
+      },
+      "selection_sequence": "cube_demo",
+      "selection_stage": "Placement"
+    },
+    {
+      "id": "task2_verified_demo_ep050_f00018",
+      "root": "/data2/gpepe/datasets/Multi-task-verified-9bd90be",
+      "group": "verified_demo",
+      "task": "Grab the plush and place in the box",
+      "task_id": 2,
+      "episode": 50,
+      "frame": 18,
+      "fraction": 0.04945054945054945,
+      "fps": 30,
+      "episode_metadata": {
+        "episode_index": 50,
+        "tasks": [
+          "Grab the plush and place in the box"
+        ],
+        "length": 365,
+        "data/chunk_index": 0,
+        "data/file_index": 2,
+        "dataset_from_index": 15887,
+        "dataset_to_index": 16252,
+        "videos/observation.images.front/chunk_index": 0,
+        "videos/observation.images.front/file_index": 2,
+        "videos/observation.images.front/from_timestamp": 0.0,
+        "videos/observation.images.front/to_timestamp": 12.166666666666666,
+        "videos/observation.images.wrist/chunk_index": 0,
+        "videos/observation.images.wrist/file_index": 2,
+        "videos/observation.images.wrist/from_timestamp": 0.0,
+        "videos/observation.images.wrist/to_timestamp": 12.166666666666666,
+        "meta/episodes/chunk_index": 0,
+        "meta/episodes/file_index": 0
+      },
+      "selection_sequence": "plush_demo",
+      "selection_stage": "Approach"
+    },
+    {
+      "id": "task2_verified_demo_ep050_f00091",
+      "root": "/data2/gpepe/datasets/Multi-task-verified-9bd90be",
+      "group": "verified_demo",
+      "task": "Grab the plush and place in the box",
+      "task_id": 2,
+      "episode": 50,
+      "frame": 91,
+      "fraction": 0.25,
+      "fps": 30,
+      "episode_metadata": {
+        "episode_index": 50,
+        "tasks": [
+          "Grab the plush and place in the box"
+        ],
+        "length": 365,
+        "data/chunk_index": 0,
+        "data/file_index": 2,
+        "dataset_from_index": 15887,
+        "dataset_to_index": 16252,
+        "videos/observation.images.front/chunk_index": 0,
+        "videos/observation.images.front/file_index": 2,
+        "videos/observation.images.front/from_timestamp": 0.0,
+        "videos/observation.images.front/to_timestamp": 12.166666666666666,
+        "videos/observation.images.wrist/chunk_index": 0,
+        "videos/observation.images.wrist/file_index": 2,
+        "videos/observation.images.wrist/from_timestamp": 0.0,
+        "videos/observation.images.wrist/to_timestamp": 12.166666666666666,
+        "meta/episodes/chunk_index": 0,
+        "meta/episodes/file_index": 0
+      },
+      "selection_sequence": "plush_demo",
+      "selection_stage": "Grasp region"
+    },
+    {
+      "id": "task2_verified_demo_ep050_f00164",
+      "root": "/data2/gpepe/datasets/Multi-task-verified-9bd90be",
+      "group": "verified_demo",
+      "task": "Grab the plush and place in the box",
+      "task_id": 2,
+      "episode": 50,
+      "frame": 164,
+      "fraction": 0.45054945054945056,
+      "fps": 30,
+      "episode_metadata": {
+        "episode_index": 50,
+        "tasks": [
+          "Grab the plush and place in the box"
+        ],
+        "length": 365,
+        "data/chunk_index": 0,
+        "data/file_index": 2,
+        "dataset_from_index": 15887,
+        "dataset_to_index": 16252,
+        "videos/observation.images.front/chunk_index": 0,
+        "videos/observation.images.front/file_index": 2,
+        "videos/observation.images.front/from_timestamp": 0.0,
+        "videos/observation.images.front/to_timestamp": 12.166666666666666,
+        "videos/observation.images.wrist/chunk_index": 0,
+        "videos/observation.images.wrist/file_index": 2,
+        "videos/observation.images.wrist/from_timestamp": 0.0,
+        "videos/observation.images.wrist/to_timestamp": 12.166666666666666,
+        "meta/episodes/chunk_index": 0,
+        "meta/episodes/file_index": 0
+      },
+      "selection_sequence": "plush_demo",
+      "selection_stage": "Box interaction"
+    },
+    {
+      "id": "task2_verified_demo_ep050_f00309",
+      "root": "/data2/gpepe/datasets/Multi-task-verified-9bd90be",
+      "group": "verified_demo",
+      "task": "Grab the plush and place in the box",
+      "task_id": 2,
+      "episode": 50,
+      "frame": 309,
+      "fraction": 0.8489010989010989,
+      "fps": 30,
+      "episode_metadata": {
+        "episode_index": 50,
+        "tasks": [
+          "Grab the plush and place in the box"
+        ],
+        "length": 365,
+        "data/chunk_index": 0,
+        "data/file_index": 2,
+        "dataset_from_index": 15887,
+        "dataset_to_index": 16252,
+        "videos/observation.images.front/chunk_index": 0,
+        "videos/observation.images.front/file_index": 2,
+        "videos/observation.images.front/from_timestamp": 0.0,
+        "videos/observation.images.front/to_timestamp": 12.166666666666666,
+        "videos/observation.images.wrist/chunk_index": 0,
+        "videos/observation.images.wrist/file_index": 2,
+        "videos/observation.images.wrist/from_timestamp": 0.0,
+        "videos/observation.images.wrist/to_timestamp": 12.166666666666666,
+        "meta/episodes/chunk_index": 0,
+        "meta/episodes/file_index": 0
+      },
+      "selection_sequence": "plush_demo",
+      "selection_stage": "Late frame"
+    },
+    {
+      "id": "task2_failure_ep000_f00015",
+      "root": "/home/gpepe/ws/exports/tokenizer_qualitative/datasets/rollout_tokenizer_attention_task2_20261116_155022",
+      "group": "failure",
+      "task": "Grab the plush and place in the box",
+      "task_id": 2,
+      "episode": 0,
+      "frame": 15,
+      "fraction": 0.048701298701298704,
+      "fps": 30,
+      "episode_metadata": {
+        "episode_index": 0,
+        "tasks": [
+          "Grab the plush and place in the box"
+        ],
+        "length": 309,
+        "data/chunk_index": 0,
+        "data/file_index": 0,
+        "dataset_from_index": 0,
+        "dataset_to_index": 309,
+        "videos/observation.images.wrist/chunk_index": 0,
+        "videos/observation.images.wrist/file_index": 0,
+        "videos/observation.images.wrist/from_timestamp": 0.0,
+        "videos/observation.images.wrist/to_timestamp": 10.3,
+        "videos/observation.images.front/chunk_index": 0,
+        "videos/observation.images.front/file_index": 0,
+        "videos/observation.images.front/from_timestamp": 0.0,
+        "videos/observation.images.front/to_timestamp": 10.3,
+        "meta/episodes/chunk_index": 0,
+        "meta/episodes/file_index": 0
+      },
+      "selection_sequence": "plush_failure",
+      "selection_stage": "Approach"
+    },
+    {
+      "id": "task2_failure_ep000_f00108",
+      "root": "/home/gpepe/ws/exports/tokenizer_qualitative/datasets/rollout_tokenizer_attention_task2_20261116_155022",
+      "group": "failure",
+      "task": "Grab the plush and place in the box",
+      "task_id": 2,
+      "episode": 0,
+      "frame": 108,
+      "fraction": 0.35064935064935066,
+      "fps": 30,
+      "episode_metadata": {
+        "episode_index": 0,
+        "tasks": [
+          "Grab the plush and place in the box"
+        ],
+        "length": 309,
+        "data/chunk_index": 0,
+        "data/file_index": 0,
+        "dataset_from_index": 0,
+        "dataset_to_index": 309,
+        "videos/observation.images.wrist/chunk_index": 0,
+        "videos/observation.images.wrist/file_index": 0,
+        "videos/observation.images.wrist/from_timestamp": 0.0,
+        "videos/observation.images.wrist/to_timestamp": 10.3,
+        "videos/observation.images.front/chunk_index": 0,
+        "videos/observation.images.front/file_index": 0,
+        "videos/observation.images.front/from_timestamp": 0.0,
+        "videos/observation.images.front/to_timestamp": 10.3,
+        "meta/episodes/chunk_index": 0,
+        "meta/episodes/file_index": 0
+      },
+      "selection_sequence": "plush_failure",
+      "selection_stage": "Cube grasp region"
+    },
+    {
+      "id": "task2_failure_ep000_f00200",
+      "root": "/home/gpepe/ws/exports/tokenizer_qualitative/datasets/rollout_tokenizer_attention_task2_20261116_155022",
+      "group": "failure",
+      "task": "Grab the plush and place in the box",
+      "task_id": 2,
+      "episode": 0,
+      "frame": 200,
+      "fraction": 0.6493506493506493,
+      "fps": 30,
+      "episode_metadata": {
+        "episode_index": 0,
+        "tasks": [
+          "Grab the plush and place in the box"
+        ],
+        "length": 309,
+        "data/chunk_index": 0,
+        "data/file_index": 0,
+        "dataset_from_index": 0,
+        "dataset_to_index": 309,
+        "videos/observation.images.wrist/chunk_index": 0,
+        "videos/observation.images.wrist/file_index": 0,
+        "videos/observation.images.wrist/from_timestamp": 0.0,
+        "videos/observation.images.wrist/to_timestamp": 10.3,
+        "videos/observation.images.front/chunk_index": 0,
+        "videos/observation.images.front/file_index": 0,
+        "videos/observation.images.front/from_timestamp": 0.0,
+        "videos/observation.images.front/to_timestamp": 10.3,
+        "meta/episodes/chunk_index": 0,
+        "meta/episodes/file_index": 0
+      },
+      "selection_sequence": "plush_failure",
+      "selection_stage": "Transfer"
+    },
+    {
+      "id": "task2_failure_ep000_f00293",
+      "root": "/home/gpepe/ws/exports/tokenizer_qualitative/datasets/rollout_tokenizer_attention_task2_20261116_155022",
+      "group": "failure",
+      "task": "Grab the plush and place in the box",
+      "task_id": 2,
+      "episode": 0,
+      "frame": 293,
+      "fraction": 0.9512987012987013,
+      "fps": 30,
+      "episode_metadata": {
+        "episode_index": 0,
+        "tasks": [
+          "Grab the plush and place in the box"
+        ],
+        "length": 309,
+        "data/chunk_index": 0,
+        "data/file_index": 0,
+        "dataset_from_index": 0,
+        "dataset_to_index": 309,
+        "videos/observation.images.wrist/chunk_index": 0,
+        "videos/observation.images.wrist/file_index": 0,
+        "videos/observation.images.wrist/from_timestamp": 0.0,
+        "videos/observation.images.wrist/to_timestamp": 10.3,
+        "videos/observation.images.front/chunk_index": 0,
+        "videos/observation.images.front/file_index": 0,
+        "videos/observation.images.front/from_timestamp": 0.0,
+        "videos/observation.images.front/to_timestamp": 10.3,
+        "meta/episodes/chunk_index": 0,
+        "meta/episodes/file_index": 0
+      },
+      "selection_sequence": "plush_failure",
+      "selection_stage": "Late frame"
+    },
+    {
+      "id": "task3_verified_demo_ep149_f00014",
+      "root": "/data2/gpepe/datasets/Multi-task-verified-9bd90be",
+      "group": "verified_demo",
+      "task": "Grab the peg and push the red cube",
+      "task_id": 3,
+      "episode": 149,
+      "frame": 14,
+      "fraction": 0.05166051660516605,
+      "fps": 30,
+      "episode_metadata": {
+        "episode_index": 149,
+        "tasks": [
+          "Grab the peg and push the red cube"
+        ],
+        "length": 272,
+        "data/chunk_index": 0,
+        "data/file_index": 4,
+        "dataset_from_index": 50994,
+        "dataset_to_index": 51266,
+        "videos/observation.images.front/chunk_index": 0,
+        "videos/observation.images.front/file_index": 4,
+        "videos/observation.images.front/from_timestamp": 602.8333333333333,
+        "videos/observation.images.front/to_timestamp": 611.9,
+        "videos/observation.images.wrist/chunk_index": 0,
+        "videos/observation.images.wrist/file_index": 4,
+        "videos/observation.images.wrist/from_timestamp": 602.8333333333333,
+        "videos/observation.images.wrist/to_timestamp": 611.9,
+        "meta/episodes/chunk_index": 0,
+        "meta/episodes/file_index": 0
+      },
+      "selection_sequence": "tool_demo",
+      "selection_stage": "Approach"
+    },
+    {
+      "id": "task3_verified_demo_ep149_f00095",
+      "root": "/data2/gpepe/datasets/Multi-task-verified-9bd90be",
+      "group": "verified_demo",
+      "task": "Grab the peg and push the red cube",
+      "task_id": 3,
+      "episode": 149,
+      "frame": 95,
+      "fraction": 0.3505535055350554,
+      "fps": 30,
+      "episode_metadata": {
+        "episode_index": 149,
+        "tasks": [
+          "Grab the peg and push the red cube"
+        ],
+        "length": 272,
+        "data/chunk_index": 0,
+        "data/file_index": 4,
+        "dataset_from_index": 50994,
+        "dataset_to_index": 51266,
+        "videos/observation.images.front/chunk_index": 0,
+        "videos/observation.images.front/file_index": 4,
+        "videos/observation.images.front/from_timestamp": 602.8333333333333,
+        "videos/observation.images.front/to_timestamp": 611.9,
+        "videos/observation.images.wrist/chunk_index": 0,
+        "videos/observation.images.wrist/file_index": 4,
+        "videos/observation.images.wrist/from_timestamp": 602.8333333333333,
+        "videos/observation.images.wrist/to_timestamp": 611.9,
+        "meta/episodes/chunk_index": 0,
+        "meta/episodes/file_index": 0
+      },
+      "selection_sequence": "tool_demo",
+      "selection_stage": "Tool grasp region"
+    },
+    {
+      "id": "task3_verified_demo_ep149_f00176",
+      "root": "/data2/gpepe/datasets/Multi-task-verified-9bd90be",
+      "group": "verified_demo",
+      "task": "Grab the peg and push the red cube",
+      "task_id": 3,
+      "episode": 149,
+      "frame": 176,
+      "fraction": 0.6494464944649446,
+      "fps": 30,
+      "episode_metadata": {
+        "episode_index": 149,
+        "tasks": [
+          "Grab the peg and push the red cube"
+        ],
+        "length": 272,
+        "data/chunk_index": 0,
+        "data/file_index": 4,
+        "dataset_from_index": 50994,
+        "dataset_to_index": 51266,
+        "videos/observation.images.front/chunk_index": 0,
+        "videos/observation.images.front/file_index": 4,
+        "videos/observation.images.front/from_timestamp": 602.8333333333333,
+        "videos/observation.images.front/to_timestamp": 611.9,
+        "videos/observation.images.wrist/chunk_index": 0,
+        "videos/observation.images.wrist/file_index": 4,
+        "videos/observation.images.wrist/from_timestamp": 602.8333333333333,
+        "videos/observation.images.wrist/to_timestamp": 611.9,
+        "meta/episodes/chunk_index": 0,
+        "meta/episodes/file_index": 0
+      },
+      "selection_sequence": "tool_demo",
+      "selection_stage": "Cube interaction"
+    },
+    {
+      "id": "task3_verified_demo_ep149_f00257",
+      "root": "/data2/gpepe/datasets/Multi-task-verified-9bd90be",
+      "group": "verified_demo",
+      "task": "Grab the peg and push the red cube",
+      "task_id": 3,
+      "episode": 149,
+      "frame": 257,
+      "fraction": 0.948339483394834,
+      "fps": 30,
+      "episode_metadata": {
+        "episode_index": 149,
+        "tasks": [
+          "Grab the peg and push the red cube"
+        ],
+        "length": 272,
+        "data/chunk_index": 0,
+        "data/file_index": 4,
+        "dataset_from_index": 50994,
+        "dataset_to_index": 51266,
+        "videos/observation.images.front/chunk_index": 0,
+        "videos/observation.images.front/file_index": 4,
+        "videos/observation.images.front/from_timestamp": 602.8333333333333,
+        "videos/observation.images.front/to_timestamp": 611.9,
+        "videos/observation.images.wrist/chunk_index": 0,
+        "videos/observation.images.wrist/file_index": 4,
+        "videos/observation.images.wrist/from_timestamp": 602.8333333333333,
+        "videos/observation.images.wrist/to_timestamp": 611.9,
+        "meta/episodes/chunk_index": 0,
+        "meta/episodes/file_index": 0
+      },
+      "selection_sequence": "tool_demo",
+      "selection_stage": "Late frame"
+    },
+    {
+      "id": "task3_failure_ep000_f00029",
+      "root": "/home/gpepe/ws/exports/tokenizer_qualitative/datasets/rollout_tokenizer_attention_task3_20261116_155319",
+      "group": "failure",
+      "task": "Grab the peg and push the red cube",
+      "task_id": 3,
+      "episode": 0,
+      "frame": 29,
+      "fraction": 0.04991394148020654,
+      "fps": 30,
+      "episode_metadata": {
+        "episode_index": 0,
+        "tasks": [
+          "Grab the peg and push the red cube"
+        ],
+        "length": 582,
+        "data/chunk_index": 0,
+        "data/file_index": 0,
+        "dataset_from_index": 0,
+        "dataset_to_index": 582,
+        "videos/observation.images.wrist/chunk_index": 0,
+        "videos/observation.images.wrist/file_index": 0,
+        "videos/observation.images.wrist/from_timestamp": 0.0,
+        "videos/observation.images.wrist/to_timestamp": 19.4,
+        "videos/observation.images.front/chunk_index": 0,
+        "videos/observation.images.front/file_index": 0,
+        "videos/observation.images.front/from_timestamp": 0.0,
+        "videos/observation.images.front/to_timestamp": 19.4,
+        "meta/episodes/chunk_index": 0,
+        "meta/episodes/file_index": 0
+      },
+      "selection_sequence": "tool_failure",
+      "selection_stage": "Approach"
+    },
+    {
+      "id": "task3_failure_ep000_f00145",
+      "root": "/home/gpepe/ws/exports/tokenizer_qualitative/datasets/rollout_tokenizer_attention_task3_20261116_155319",
+      "group": "failure",
+      "task": "Grab the peg and push the red cube",
+      "task_id": 3,
+      "episode": 0,
+      "frame": 145,
+      "fraction": 0.2495697074010327,
+      "fps": 30,
+      "episode_metadata": {
+        "episode_index": 0,
+        "tasks": [
+          "Grab the peg and push the red cube"
+        ],
+        "length": 582,
+        "data/chunk_index": 0,
+        "data/file_index": 0,
+        "dataset_from_index": 0,
+        "dataset_to_index": 582,
+        "videos/observation.images.wrist/chunk_index": 0,
+        "videos/observation.images.wrist/file_index": 0,
+        "videos/observation.images.wrist/from_timestamp": 0.0,
+        "videos/observation.images.wrist/to_timestamp": 19.4,
+        "videos/observation.images.front/chunk_index": 0,
+        "videos/observation.images.front/file_index": 0,
+        "videos/observation.images.front/from_timestamp": 0.0,
+        "videos/observation.images.front/to_timestamp": 19.4,
+        "meta/episodes/chunk_index": 0,
+        "meta/episodes/file_index": 0
+      },
+      "selection_sequence": "tool_failure",
+      "selection_stage": "Grasp region"
+    },
+    {
+      "id": "task3_failure_ep000_f00378",
+      "root": "/home/gpepe/ws/exports/tokenizer_qualitative/datasets/rollout_tokenizer_attention_task3_20261116_155319",
+      "group": "failure",
+      "task": "Grab the peg and push the red cube",
+      "task_id": 3,
+      "episode": 0,
+      "frame": 378,
+      "fraction": 0.6506024096385542,
+      "fps": 30,
+      "episode_metadata": {
+        "episode_index": 0,
+        "tasks": [
+          "Grab the peg and push the red cube"
+        ],
+        "length": 582,
+        "data/chunk_index": 0,
+        "data/file_index": 0,
+        "dataset_from_index": 0,
+        "dataset_to_index": 582,
+        "videos/observation.images.wrist/chunk_index": 0,
+        "videos/observation.images.wrist/file_index": 0,
+        "videos/observation.images.wrist/from_timestamp": 0.0,
+        "videos/observation.images.wrist/to_timestamp": 19.4,
+        "videos/observation.images.front/chunk_index": 0,
+        "videos/observation.images.front/file_index": 0,
+        "videos/observation.images.front/from_timestamp": 0.0,
+        "videos/observation.images.front/to_timestamp": 19.4,
+        "meta/episodes/chunk_index": 0,
+        "meta/episodes/file_index": 0
+      },
+      "selection_sequence": "tool_failure",
+      "selection_stage": "Interaction"
+    },
+    {
+      "id": "task3_failure_ep000_f00552",
+      "root": "/home/gpepe/ws/exports/tokenizer_qualitative/datasets/rollout_tokenizer_attention_task3_20261116_155319",
+      "group": "failure",
+      "task": "Grab the peg and push the red cube",
+      "task_id": 3,
+      "episode": 0,
+      "frame": 552,
+      "fraction": 0.9500860585197934,
+      "fps": 30,
+      "episode_metadata": {
+        "episode_index": 0,
+        "tasks": [
+          "Grab the peg and push the red cube"
+        ],
+        "length": 582,
+        "data/chunk_index": 0,
+        "data/file_index": 0,
+        "dataset_from_index": 0,
+        "dataset_to_index": 582,
+        "videos/observation.images.wrist/chunk_index": 0,
+        "videos/observation.images.wrist/file_index": 0,
+        "videos/observation.images.wrist/from_timestamp": 0.0,
+        "videos/observation.images.wrist/to_timestamp": 19.4,
+        "videos/observation.images.front/chunk_index": 0,
+        "videos/observation.images.front/file_index": 0,
+        "videos/observation.images.front/from_timestamp": 0.0,
+        "videos/observation.images.front/to_timestamp": 19.4,
+        "meta/episodes/chunk_index": 0,
+        "meta/episodes/file_index": 0
+      },
+      "selection_sequence": "tool_failure",
+      "selection_stage": "Late frame"
+    },
+    {
+      "id": "task1_failure_ep000_f00108",
+      "root": "/home/gpepe/ws/exports/tokenizer_qualitative/datasets/rollout_tokenizer_attention_task1_20261116_154605",
+      "group": "failure",
+      "task": "Grab the red cube and place on the gray block",
+      "task_id": 1,
+      "episode": 0,
+      "frame": 108,
+      "fraction": 0.5023255813953489,
+      "fps": 30,
+      "episode_metadata": {
+        "episode_index": 0,
+        "tasks": [
+          "Grab the red cube and place on the gray block"
+        ],
+        "length": 216,
+        "data/chunk_index": 0,
+        "data/file_index": 0,
+        "dataset_from_index": 0,
+        "dataset_to_index": 216,
+        "videos/observation.images.wrist/chunk_index": 0,
+        "videos/observation.images.wrist/file_index": 0,
+        "videos/observation.images.wrist/from_timestamp": 0.0,
+        "videos/observation.images.wrist/to_timestamp": 7.2,
+        "videos/observation.images.front/chunk_index": 0,
+        "videos/observation.images.front/file_index": 0,
+        "videos/observation.images.front/from_timestamp": 0.0,
+        "videos/observation.images.front/to_timestamp": 7.2,
+        "meta/episodes/chunk_index": 0,
+        "meta/episodes/file_index": 0
+      },
+      "selection_sequence": "cube_detail",
+      "selection_stage": "Diagnostic frame"
+    }
+  ]
+}
