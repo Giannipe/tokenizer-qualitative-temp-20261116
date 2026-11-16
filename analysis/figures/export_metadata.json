@@ -1,0 +1,17 @@
+{
+  "figures_by_family": {
+    "comparisons": 6,
+    "overview": 24,
+    "slots": 24,
+    "diagnostics": 24,
+    "timelines": 24,
+    "embeddings": 2
+  },
+  "png_dpi": 300,
+  "pdf_fonttype": 42,
+  "rgb_source": "checkpoint-preprocessed recorded RGB",
+  "attention_scale": "log2 lift over uniform, clipped to [0,3]",
+  "semantic_color_projection": "shared PCA per camera across both conditions",
+  "observation_count": 60,
+  "camera_view_count": 120
+}

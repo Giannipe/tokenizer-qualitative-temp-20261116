@@ -1,0 +1,4 @@
+.cache/
+hf_cache/
+__pycache__/
+*.tmp

@@ -1,0 +1,18 @@
+{
+  "observations": 60,
+  "camera_views": 120,
+  "max_keypoint_reconstruction_error": 1.0057588871736911e-06,
+  "max_video_sync_error_s": 8.900960288826809e-07,
+  "hook_prediction_max_abs_error": 0.0,
+  "all_tensors_finite": true,
+  "action_shape": [
+    12,
+    6
+  ],
+  "routing_sums_valid": true,
+  "png_figures": 104,
+  "pdf_figures": 104,
+  "all_images_verified": true,
+  "all_gallery_links_verified": true,
+  "png_dpi": 300
+}
