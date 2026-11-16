@@ -1,5 +1,7 @@
 # AFA tokenizer: figure qualitative offline
 
+[Nuove figure in stile paper: DINO→AFA e confronto TurboVLA](paper_style/README.md)
+
 [Figure selezionate per la tesi: principali e appendice](thesis/GALLERY.md)
 
 [Experimental Setup: metodo e significato delle figure](EXPERIMENTAL_SETUP_QUALITATIVE.md)

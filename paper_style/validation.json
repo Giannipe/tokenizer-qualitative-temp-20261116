@@ -1,0 +1,19 @@
+{
+  "observations_per_policy": 42,
+  "camera_views_per_policy": 84,
+  "policies": 2,
+  "matching_preprocessed_rgb": true,
+  "all_tensors_finite": true,
+  "all_spatial_probabilities_normalized": true,
+  "hook_prediction_max_abs_error": 0.0,
+  "max_video_sync_error_s": 4.4504801444134046e-07,
+  "max_replayed_afa_tensor_difference": 0.0,
+  "cls_replay_vs_eager_max_abs_error": 1.1920928955078125e-07,
+  "png_figures": 9,
+  "pdf_figures": 9,
+  "main_text_candidates": 2,
+  "appendix_figures": 7,
+  "all_images_verified": true,
+  "all_document_links_verified": true,
+  "png_dpi": 300
+}
