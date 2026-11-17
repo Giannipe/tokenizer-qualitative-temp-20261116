@@ -1,0 +1,250 @@
+{
+  "schema": "successgrasp_complete_v1",
+  "checkpoint": "/data2/gpepe/lerobot_runs/turbovla_base_vli_multitask_full_80k_20261111/checkpoints/160000/pretrained_model",
+  "checkpoint_sha256": "2262409f2599b76402890fe8535c4928322300f0af0169b20d2b797dc187d6d6",
+  "config": {
+    "type": "turbovla",
+    "n_obs_steps": 1,
+    "input_features": {
+      "observation.state": {
+        "type": "STATE",
+        "shape": [
+          6
+        ]
+      },
+      "observation.images.front": {
+        "type": "VISUAL",
+        "shape": [
+          3,
+          480,
+          640
+        ]
+      },
+      "observation.images.wrist": {
+        "type": "VISUAL",
+        "shape": [
+          3,
+          480,
+          640
+        ]
+      }
+    },
+    "output_features": {
+      "action": {
+        "type": "ACTION",
+        "shape": [
+          6
+        ]
+      }
+    },
+    "device": "cuda",
+    "dtype": null,
+    "use_amp": false,
+    "use_peft": false,
+    "push_to_hub": false,
+    "repo_id": null,
+    "private": null,
+    "tags": null,
+    "license": null,
+    "pretrained_path": null,
+    "pretrained_revision": null,
+    "n_action_steps": 12,
+    "camera_keys": [
+      "observation.images.front",
+      "observation.images.wrist"
+    ],
+    "resize_images_with_padding": true,
+    "compatibility_profile": "libero",
+    "text": {
+      "model_name_or_path": "/data2/gpepe/hf_home/hub/models--google-bert--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594",
+      "max_length": 64,
+      "padding_length": null,
+      "padding_length_by_instruction": {},
+      "sub_sentence_present": true,
+      "frozen": true,
+      "force_eval_when_frozen": true,
+      "zero_padded_tokens": false,
+      "local_files_only": true,
+      "attention_implementation": "eager"
+    },
+    "vision": {
+      "model_name_or_path": "/data2/gpepe/hf_home/hub/models--facebook--dinov3-vitb16-pretrain-lvd1689m/snapshots/5931719e67bbdb9737e363e781fb0c67687896bc",
+      "image_size": 256,
+      "num_views": 2,
+      "position_embedding": "view",
+      "encode_views_separately": true,
+      "frozen": false,
+      "local_files_only": true,
+      "attention_implementation": "sdpa",
+      "compute_precision": "fp32",
+      "position_init_std": 0.01,
+      "position_scale_init": 0.01,
+      "dropout": 0.1
+    },
+    "interaction": {
+      "mode": "vli",
+      "hidden_dim": 256,
+      "nheads": 8,
+      "num_layers": 6,
+      "dim_feedforward": 2048,
+      "enhancer_inner_dim": 1024,
+      "text_dropout": 0.0,
+      "fusion_dropout": 0.0,
+      "fusion_droppath": 0.1,
+      "padding_strategy": "key_padding_mask",
+      "residual_style": "normalized",
+      "attention_backend": "manual",
+      "compute_precision": "fp32",
+      "early_bert_num_heads": 12,
+      "early_bert_dropout": 0.0,
+      "early_bert_layerscale_init": 0.001
+    },
+    "action": {
+      "action_dim": 6,
+      "state_dim": 6,
+      "horizon": 12,
+      "num_state_tokens": 2,
+      "num_layers": 3,
+      "mlp_hidden_dim": 512,
+      "state_hidden_dim": 256,
+      "dropout": 0.1,
+      "proprio_dropout": 0.0
+    },
+    "normalization_mapping": {
+      "VISUAL": "IDENTITY",
+      "STATE": "MEAN_STD",
+      "ACTION": "MIN_MAX"
+    },
+    "state_mean": [
+      4.014951537716424,
+      -33.55204803515885,
+      58.35822378999005,
+      9.42806986655264,
+      93.44258412063617,
+      17.489118241223917
+    ],
+    "state_std": [
+      22.806897550754687,
+      37.84257782435325,
+      24.322146328433984,
+      21.167192465923833,
+      9.149827777649145,
+      10.310911323562362
+    ],
+    "action_min": [
+      -57.36263656616211,
+      -104.92308044433594,
+      -13.142857551574707,
+      -46.593406677246094,
+      40.39560317993164,
+      0.1638001650571823
+    ],
+    "action_max": [
+      63.78022003173828,
+      32.483516693115234,
+      97.010986328125,
+      102.24176025390625,
+      154.59339904785156,
+      49.959049224853516
+    ],
+    "image_mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "image_std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "libero_gripper": false,
+    "optimizer_lr": 5e-05,
+    "optimizer_betas": [
+      0.9,
+      0.95
+    ],
+    "optimizer_eps": 1e-08,
+    "optimizer_weight_decay": 1e-10,
+    "optimizer_grad_clip_norm": 1.0,
+    "scheduler_warmup_steps": 2000,
+    "scheduler_decay_steps": 160000,
+    "scheduler_min_lr_ratio": 0.1,
+    "groundingdino_init_path": null,
+    "inference_dtype": null
+  },
+  "source": {
+    "repo_id": "Giannipe/Multi-task-verified",
+    "revision": "9bd90bef6481029a3e00e3527c8f67ac04bc5b85",
+    "local_root": "/data2/gpepe/datasets/Multi-task-verified-9bd90be",
+    "info_sha256": "f517524b7fd47c914290df37b28a7c07de8997648a8118d58895754c39bb980b",
+    "task_slug": "plush",
+    "title": "Peluche",
+    "task_id": 2,
+    "instruction": "Grab the plush and place in the box",
+    "episode_indices": [
+      50,
+      99
+    ],
+    "expected_frames": 660,
+    "condition": "verified_demo",
+    "training_demonstrations": true,
+    "selection": "Same first and last verified episode used in prior analyses; every frame"
+  },
+  "episodes": [
+    {
+      "episode_index": 50,
+      "tasks": [
+        "Grab the plush and place in the box"
+      ],
+      "length": 365,
+      "data/chunk_index": 0,
+      "data/file_index": 2,
+      "dataset_from_index": 15887,
+      "dataset_to_index": 16252,
+      "videos/observation.images.front/chunk_index": 0,
+      "videos/observation.images.front/file_index": 2,
+      "videos/observation.images.front/from_timestamp": 0.0,
+      "videos/observation.images.front/to_timestamp": 12.166666666666666,
+      "videos/observation.images.wrist/chunk_index": 0,
+      "videos/observation.images.wrist/file_index": 2,
+      "videos/observation.images.wrist/from_timestamp": 0.0,
+      "videos/observation.images.wrist/to_timestamp": 12.166666666666666,
+      "meta/episodes/chunk_index": 0,
+      "meta/episodes/file_index": 0
+    },
+    {
+      "episode_index": 99,
+      "tasks": [
+        "Grab the plush and place in the box"
+      ],
+      "length": 295,
+      "data/chunk_index": 0,
+      "data/file_index": 3,
+      "dataset_from_index": 32614,
+      "dataset_to_index": 32909,
+      "videos/observation.images.front/chunk_index": 0,
+      "videos/observation.images.front/file_index": 3,
+      "videos/observation.images.front/from_timestamp": 38.96666666666667,
+      "videos/observation.images.front/to_timestamp": 48.800000000000004,
+      "videos/observation.images.wrist/chunk_index": 0,
+      "videos/observation.images.wrist/file_index": 3,
+      "videos/observation.images.wrist/from_timestamp": 38.96666666666667,
+      "videos/observation.images.wrist/to_timestamp": 48.800000000000004,
+      "meta/episodes/chunk_index": 0,
+      "meta/episodes/file_index": 1
+    }
+  ],
+  "device": "cuda:1",
+  "precision": "fp32",
+  "batch_size": 1,
+  "torch_version": "2.10.0+cu128",
+  "diagnostic_source_sha256": "9563a0badd4d13c33d1e913649372d60c9c4bdef17c38c0a7e2137981c333c74",
+  "all_frames": true,
+  "all_slots": true,
+  "display_crop_xyxy": [
+    0,
+    32,
+    256,
+    224
+  ]
+}

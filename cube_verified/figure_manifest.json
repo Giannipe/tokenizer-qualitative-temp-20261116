@@ -1,0 +1,1814 @@
+[
+  {
+    "name": "overview/ep000_front_f00000",
+    "caption": "Episode 0, front, frame 0. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep000_front_f00000.png",
+    "pdf": "clean/overview/ep000_front_f00000.pdf"
+  },
+  {
+    "name": "all_slots/ep000_front_f00000_attention",
+    "caption": "All sixteen AFA pooling maps, query IDs 0\u201315 in row-major order. Episode 0, front, frame 0. Shared 1\u00d7\u20138\u00d7 log attention lift; each map retains full-grid normalization.",
+    "png": "clean/all_slots/ep000_front_f00000_attention.png",
+    "pdf": "clean/all_slots/ep000_front_f00000_attention.pdf"
+  },
+  {
+    "name": "all_slots/ep000_front_f00000_routing_rgb",
+    "caption": "All sixteen competitive-routing RGB responsibility views, IDs 0\u201315 row-major. Absolute routing probabilities on white. These are input masks, not reconstructions or annotated object segments.",
+    "png": "clean/all_slots/ep000_front_f00000_routing_rgb.png",
+    "pdf": "clean/all_slots/ep000_front_f00000_routing_rgb.pdf"
+  },
+  {
+    "name": "overview/ep000_front_f00053",
+    "caption": "Episode 0, front, frame 53. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep000_front_f00053.png",
+    "pdf": "clean/overview/ep000_front_f00053.pdf"
+  },
+  {
+    "name": "overview/ep000_front_f00057",
+    "caption": "Episode 0, front, frame 57. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep000_front_f00057.png",
+    "pdf": "clean/overview/ep000_front_f00057.pdf"
+  },
+  {
+    "name": "all_slots/ep000_front_f00057_attention",
+    "caption": "All sixteen AFA pooling maps, query IDs 0\u201315 in row-major order. Episode 0, front, frame 57. Shared 1\u00d7\u20138\u00d7 log attention lift; each map retains full-grid normalization.",
+    "png": "clean/all_slots/ep000_front_f00057_attention.png",
+    "pdf": "clean/all_slots/ep000_front_f00057_attention.pdf"
+  },
+  {
+    "name": "all_slots/ep000_front_f00057_routing_rgb",
+    "caption": "All sixteen competitive-routing RGB responsibility views, IDs 0\u201315 row-major. Absolute routing probabilities on white. These are input masks, not reconstructions or annotated object segments.",
+    "png": "clean/all_slots/ep000_front_f00057_routing_rgb.png",
+    "pdf": "clean/all_slots/ep000_front_f00057_routing_rgb.pdf"
+  },
+  {
+    "name": "overview/ep000_front_f00105",
+    "caption": "Episode 0, front, frame 105. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep000_front_f00105.png",
+    "pdf": "clean/overview/ep000_front_f00105.pdf"
+  },
+  {
+    "name": "overview/ep000_front_f00134",
+    "caption": "Episode 0, front, frame 134. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep000_front_f00134.png",
+    "pdf": "clean/overview/ep000_front_f00134.pdf"
+  },
+  {
+    "name": "all_slots/ep000_front_f00134_attention",
+    "caption": "All sixteen AFA pooling maps, query IDs 0\u201315 in row-major order. Episode 0, front, frame 134. Shared 1\u00d7\u20138\u00d7 log attention lift; each map retains full-grid normalization.",
+    "png": "clean/all_slots/ep000_front_f00134_attention.png",
+    "pdf": "clean/all_slots/ep000_front_f00134_attention.pdf"
+  },
+  {
+    "name": "all_slots/ep000_front_f00134_routing_rgb",
+    "caption": "All sixteen competitive-routing RGB responsibility views, IDs 0\u201315 row-major. Absolute routing probabilities on white. These are input masks, not reconstructions or annotated object segments.",
+    "png": "clean/all_slots/ep000_front_f00134_routing_rgb.png",
+    "pdf": "clean/all_slots/ep000_front_f00134_routing_rgb.pdf"
+  },
+  {
+    "name": "overview/ep000_front_f00149",
+    "caption": "Episode 0, front, frame 149. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep000_front_f00149.png",
+    "pdf": "clean/overview/ep000_front_f00149.pdf"
+  },
+  {
+    "name": "overview/ep000_front_f00179",
+    "caption": "Episode 0, front, frame 179. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep000_front_f00179.png",
+    "pdf": "clean/overview/ep000_front_f00179.pdf"
+  },
+  {
+    "name": "all_slots/ep000_front_f00179_attention",
+    "caption": "All sixteen AFA pooling maps, query IDs 0\u201315 in row-major order. Episode 0, front, frame 179. Shared 1\u00d7\u20138\u00d7 log attention lift; each map retains full-grid normalization.",
+    "png": "clean/all_slots/ep000_front_f00179_attention.png",
+    "pdf": "clean/all_slots/ep000_front_f00179_attention.pdf"
+  },
+  {
+    "name": "all_slots/ep000_front_f00179_routing_rgb",
+    "caption": "All sixteen competitive-routing RGB responsibility views, IDs 0\u201315 row-major. Absolute routing probabilities on white. These are input masks, not reconstructions or annotated object segments.",
+    "png": "clean/all_slots/ep000_front_f00179_routing_rgb.png",
+    "pdf": "clean/all_slots/ep000_front_f00179_routing_rgb.pdf"
+  },
+  {
+    "name": "overview/ep000_front_f00192",
+    "caption": "Episode 0, front, frame 192. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep000_front_f00192.png",
+    "pdf": "clean/overview/ep000_front_f00192.pdf"
+  },
+  {
+    "name": "overview/ep000_front_f00223",
+    "caption": "Episode 0, front, frame 223. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep000_front_f00223.png",
+    "pdf": "clean/overview/ep000_front_f00223.pdf"
+  },
+  {
+    "name": "all_slots/ep000_front_f00223_attention",
+    "caption": "All sixteen AFA pooling maps, query IDs 0\u201315 in row-major order. Episode 0, front, frame 223. Shared 1\u00d7\u20138\u00d7 log attention lift; each map retains full-grid normalization.",
+    "png": "clean/all_slots/ep000_front_f00223_attention.png",
+    "pdf": "clean/all_slots/ep000_front_f00223_attention.pdf"
+  },
+  {
+    "name": "all_slots/ep000_front_f00223_routing_rgb",
+    "caption": "All sixteen competitive-routing RGB responsibility views, IDs 0\u201315 row-major. Absolute routing probabilities on white. These are input masks, not reconstructions or annotated object segments.",
+    "png": "clean/all_slots/ep000_front_f00223_routing_rgb.png",
+    "pdf": "clean/all_slots/ep000_front_f00223_routing_rgb.pdf"
+  },
+  {
+    "name": "overview/ep000_front_f00245",
+    "caption": "Episode 0, front, frame 245. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep000_front_f00245.png",
+    "pdf": "clean/overview/ep000_front_f00245.pdf"
+  },
+  {
+    "name": "overview/ep000_front_f00274",
+    "caption": "Episode 0, front, frame 274. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep000_front_f00274.png",
+    "pdf": "clean/overview/ep000_front_f00274.pdf"
+  },
+  {
+    "name": "overview/ep000_front_f00307",
+    "caption": "Episode 0, front, frame 307. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep000_front_f00307.png",
+    "pdf": "clean/overview/ep000_front_f00307.pdf"
+  },
+  {
+    "name": "all_slots/ep000_front_f00307_attention",
+    "caption": "All sixteen AFA pooling maps, query IDs 0\u201315 in row-major order. Episode 0, front, frame 307. Shared 1\u00d7\u20138\u00d7 log attention lift; each map retains full-grid normalization.",
+    "png": "clean/all_slots/ep000_front_f00307_attention.png",
+    "pdf": "clean/all_slots/ep000_front_f00307_attention.pdf"
+  },
+  {
+    "name": "all_slots/ep000_front_f00307_routing_rgb",
+    "caption": "All sixteen competitive-routing RGB responsibility views, IDs 0\u201315 row-major. Absolute routing probabilities on white. These are input masks, not reconstructions or annotated object segments.",
+    "png": "clean/all_slots/ep000_front_f00307_routing_rgb.png",
+    "pdf": "clean/all_slots/ep000_front_f00307_routing_rgb.pdf"
+  },
+  {
+    "name": "timelines/ep000_front_policies",
+    "caption": "Rows: RGB; TurboVLA DINO CLS; AFA DINO CLS; TurboVLA ACT; AFA ACT projected through pooling maps. Same twelve frame indices. Cross-checkpoint differences include VLI versus early-BERT.",
+    "png": "clean/timelines/ep000_front_policies.png",
+    "pdf": "clean/timelines/ep000_front_policies.pdf"
+  },
+  {
+    "name": "timelines/ep000_front_slots_00_03",
+    "caption": "Rows: RGB then fixed slot IDs [0, 1, 2, 3]. Twelve chronological observations; no query reassignment.",
+    "png": "clean/timelines/ep000_front_slots_00_03.png",
+    "pdf": "clean/timelines/ep000_front_slots_00_03.pdf"
+  },
+  {
+    "name": "timelines/ep000_front_slots_04_07",
+    "caption": "Rows: RGB then fixed slot IDs [4, 5, 6, 7]. Twelve chronological observations; no query reassignment.",
+    "png": "clean/timelines/ep000_front_slots_04_07.png",
+    "pdf": "clean/timelines/ep000_front_slots_04_07.pdf"
+  },
+  {
+    "name": "timelines/ep000_front_slots_08_11",
+    "caption": "Rows: RGB then fixed slot IDs [8, 9, 10, 11]. Twelve chronological observations; no query reassignment.",
+    "png": "clean/timelines/ep000_front_slots_08_11.png",
+    "pdf": "clean/timelines/ep000_front_slots_08_11.pdf"
+  },
+  {
+    "name": "timelines/ep000_front_slots_12_15",
+    "caption": "Rows: RGB then fixed slot IDs [12, 13, 14, 15]. Twelve chronological observations; no query reassignment.",
+    "png": "clean/timelines/ep000_front_slots_12_15.png",
+    "pdf": "clean/timelines/ep000_front_slots_12_15.pdf"
+  },
+  {
+    "name": "timelines/ep000_front_geometry_semantics",
+    "caption": "Rows: RGB; geometry; keypoints_semantics; semantics; fused. All sixteen slots retained. PCA colors describe continuous embedding variation, not semantic categories.",
+    "png": "clean/timelines/ep000_front_geometry_semantics.png",
+    "pdf": "clean/timelines/ep000_front_geometry_semantics.pdf"
+  },
+  {
+    "name": "timelines/ep000_front_representation",
+    "caption": "Rows: RGB; dino_features_base; dino_features_afa; semantics; fused; post_transformer. All sixteen slots retained. PCA colors describe continuous embedding variation, not semantic categories.",
+    "png": "clean/timelines/ep000_front_representation.png",
+    "pdf": "clean/timelines/ep000_front_representation.pdf"
+  },
+  {
+    "name": "heads_layers/ep000_front_f00179_afa_dino_layers",
+    "caption": "afa, dino_layers, indices 0\u201311 in row-major order. DINO: CLS-to-patch, conditionally normalized after dropping CLS/register keys; ACT: final decoder layer, each of twelve action queries averaged across heads.",
+    "png": "clean/heads_layers/ep000_front_f00179_afa_dino_layers.png",
+    "pdf": "clean/heads_layers/ep000_front_f00179_afa_dino_layers.pdf"
+  },
+  {
+    "name": "heads_layers/ep000_front_f00179_afa_dino_heads",
+    "caption": "afa, dino_heads, indices 0\u201311 in row-major order. DINO: CLS-to-patch, conditionally normalized after dropping CLS/register keys; ACT: final decoder layer, each of twelve action queries averaged across heads.",
+    "png": "clean/heads_layers/ep000_front_f00179_afa_dino_heads.png",
+    "pdf": "clean/heads_layers/ep000_front_f00179_afa_dino_heads.pdf"
+  },
+  {
+    "name": "heads_layers/ep000_front_f00179_afa_act_queries",
+    "caption": "afa, act_queries, indices 0\u201311 in row-major order. DINO: CLS-to-patch, conditionally normalized after dropping CLS/register keys; ACT: final decoder layer, each of twelve action queries averaged across heads.",
+    "png": "clean/heads_layers/ep000_front_f00179_afa_act_queries.png",
+    "pdf": "clean/heads_layers/ep000_front_f00179_afa_act_queries.pdf"
+  },
+  {
+    "name": "heads_layers/ep000_front_f00179_afa_act_layer0_heads",
+    "caption": "afa, ACT layer 0, heads 0\u20137 row-major; averaged over action queries. All weights conditioned on this camera. AFA weights are projected through tokenizer maps.",
+    "png": "clean/heads_layers/ep000_front_f00179_afa_act_layer0_heads.png",
+    "pdf": "clean/heads_layers/ep000_front_f00179_afa_act_layer0_heads.pdf"
+  },
+  {
+    "name": "heads_layers/ep000_front_f00179_afa_act_layer1_heads",
+    "caption": "afa, ACT layer 1, heads 0\u20137 row-major; averaged over action queries. All weights conditioned on this camera. AFA weights are projected through tokenizer maps.",
+    "png": "clean/heads_layers/ep000_front_f00179_afa_act_layer1_heads.png",
+    "pdf": "clean/heads_layers/ep000_front_f00179_afa_act_layer1_heads.pdf"
+  },
+  {
+    "name": "heads_layers/ep000_front_f00179_afa_act_layer2_heads",
+    "caption": "afa, ACT layer 2, heads 0\u20137 row-major; averaged over action queries. All weights conditioned on this camera. AFA weights are projected through tokenizer maps.",
+    "png": "clean/heads_layers/ep000_front_f00179_afa_act_layer2_heads.png",
+    "pdf": "clean/heads_layers/ep000_front_f00179_afa_act_layer2_heads.pdf"
+  },
+  {
+    "name": "heads_layers/ep000_front_f00179_base_dino_layers",
+    "caption": "base, dino_layers, indices 0\u201311 in row-major order. DINO: CLS-to-patch, conditionally normalized after dropping CLS/register keys; ACT: final decoder layer, each of twelve action queries averaged across heads.",
+    "png": "clean/heads_layers/ep000_front_f00179_base_dino_layers.png",
+    "pdf": "clean/heads_layers/ep000_front_f00179_base_dino_layers.pdf"
+  },
+  {
+    "name": "heads_layers/ep000_front_f00179_base_dino_heads",
+    "caption": "base, dino_heads, indices 0\u201311 in row-major order. DINO: CLS-to-patch, conditionally normalized after dropping CLS/register keys; ACT: final decoder layer, each of twelve action queries averaged across heads.",
+    "png": "clean/heads_layers/ep000_front_f00179_base_dino_heads.png",
+    "pdf": "clean/heads_layers/ep000_front_f00179_base_dino_heads.pdf"
+  },
+  {
+    "name": "heads_layers/ep000_front_f00179_base_act_queries",
+    "caption": "base, act_queries, indices 0\u201311 in row-major order. DINO: CLS-to-patch, conditionally normalized after dropping CLS/register keys; ACT: final decoder layer, each of twelve action queries averaged across heads.",
+    "png": "clean/heads_layers/ep000_front_f00179_base_act_queries.png",
+    "pdf": "clean/heads_layers/ep000_front_f00179_base_act_queries.pdf"
+  },
+  {
+    "name": "heads_layers/ep000_front_f00179_base_act_layer0_heads",
+    "caption": "base, ACT layer 0, heads 0\u20137 row-major; averaged over action queries. All weights conditioned on this camera. AFA weights are projected through tokenizer maps.",
+    "png": "clean/heads_layers/ep000_front_f00179_base_act_layer0_heads.png",
+    "pdf": "clean/heads_layers/ep000_front_f00179_base_act_layer0_heads.pdf"
+  },
+  {
+    "name": "heads_layers/ep000_front_f00179_base_act_layer1_heads",
+    "caption": "base, ACT layer 1, heads 0\u20137 row-major; averaged over action queries. All weights conditioned on this camera. AFA weights are projected through tokenizer maps.",
+    "png": "clean/heads_layers/ep000_front_f00179_base_act_layer1_heads.png",
+    "pdf": "clean/heads_layers/ep000_front_f00179_base_act_layer1_heads.pdf"
+  },
+  {
+    "name": "heads_layers/ep000_front_f00179_base_act_layer2_heads",
+    "caption": "base, ACT layer 2, heads 0\u20137 row-major; averaged over action queries. All weights conditioned on this camera. AFA weights are projected through tokenizer maps.",
+    "png": "clean/heads_layers/ep000_front_f00179_base_act_layer2_heads.png",
+    "pdf": "clean/heads_layers/ep000_front_f00179_base_act_layer2_heads.pdf"
+  },
+  {
+    "name": "overview/ep000_wrist_f00019",
+    "caption": "Episode 0, wrist, frame 19. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep000_wrist_f00019.png",
+    "pdf": "clean/overview/ep000_wrist_f00019.pdf"
+  },
+  {
+    "name": "all_slots/ep000_wrist_f00019_attention",
+    "caption": "All sixteen AFA pooling maps, query IDs 0\u201315 in row-major order. Episode 0, wrist, frame 19. Shared 1\u00d7\u20138\u00d7 log attention lift; each map retains full-grid normalization.",
+    "png": "clean/all_slots/ep000_wrist_f00019_attention.png",
+    "pdf": "clean/all_slots/ep000_wrist_f00019_attention.pdf"
+  },
+  {
+    "name": "all_slots/ep000_wrist_f00019_routing_rgb",
+    "caption": "All sixteen competitive-routing RGB responsibility views, IDs 0\u201315 row-major. Absolute routing probabilities on white. These are input masks, not reconstructions or annotated object segments.",
+    "png": "clean/all_slots/ep000_wrist_f00019_routing_rgb.png",
+    "pdf": "clean/all_slots/ep000_wrist_f00019_routing_rgb.pdf"
+  },
+  {
+    "name": "overview/ep000_wrist_f00048",
+    "caption": "Episode 0, wrist, frame 48. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep000_wrist_f00048.png",
+    "pdf": "clean/overview/ep000_wrist_f00048.pdf"
+  },
+  {
+    "name": "overview/ep000_wrist_f00064",
+    "caption": "Episode 0, wrist, frame 64. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep000_wrist_f00064.png",
+    "pdf": "clean/overview/ep000_wrist_f00064.pdf"
+  },
+  {
+    "name": "all_slots/ep000_wrist_f00064_attention",
+    "caption": "All sixteen AFA pooling maps, query IDs 0\u201315 in row-major order. Episode 0, wrist, frame 64. Shared 1\u00d7\u20138\u00d7 log attention lift; each map retains full-grid normalization.",
+    "png": "clean/all_slots/ep000_wrist_f00064_attention.png",
+    "pdf": "clean/all_slots/ep000_wrist_f00064_attention.pdf"
+  },
+  {
+    "name": "all_slots/ep000_wrist_f00064_routing_rgb",
+    "caption": "All sixteen competitive-routing RGB responsibility views, IDs 0\u201315 row-major. Absolute routing probabilities on white. These are input masks, not reconstructions or annotated object segments.",
+    "png": "clean/all_slots/ep000_wrist_f00064_routing_rgb.png",
+    "pdf": "clean/all_slots/ep000_wrist_f00064_routing_rgb.pdf"
+  },
+  {
+    "name": "overview/ep000_wrist_f00105",
+    "caption": "Episode 0, wrist, frame 105. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep000_wrist_f00105.png",
+    "pdf": "clean/overview/ep000_wrist_f00105.pdf"
+  },
+  {
+    "name": "overview/ep000_wrist_f00109",
+    "caption": "Episode 0, wrist, frame 109. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep000_wrist_f00109.png",
+    "pdf": "clean/overview/ep000_wrist_f00109.pdf"
+  },
+  {
+    "name": "all_slots/ep000_wrist_f00109_attention",
+    "caption": "All sixteen AFA pooling maps, query IDs 0\u201315 in row-major order. Episode 0, wrist, frame 109. Shared 1\u00d7\u20138\u00d7 log attention lift; each map retains full-grid normalization.",
+    "png": "clean/all_slots/ep000_wrist_f00109_attention.png",
+    "pdf": "clean/all_slots/ep000_wrist_f00109_attention.pdf"
+  },
+  {
+    "name": "all_slots/ep000_wrist_f00109_routing_rgb",
+    "caption": "All sixteen competitive-routing RGB responsibility views, IDs 0\u201315 row-major. Absolute routing probabilities on white. These are input masks, not reconstructions or annotated object segments.",
+    "png": "clean/all_slots/ep000_wrist_f00109_routing_rgb.png",
+    "pdf": "clean/all_slots/ep000_wrist_f00109_routing_rgb.pdf"
+  },
+  {
+    "name": "overview/ep000_wrist_f00153",
+    "caption": "Episode 0, wrist, frame 153. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep000_wrist_f00153.png",
+    "pdf": "clean/overview/ep000_wrist_f00153.pdf"
+  },
+  {
+    "name": "overview/ep000_wrist_f00179",
+    "caption": "Episode 0, wrist, frame 179. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep000_wrist_f00179.png",
+    "pdf": "clean/overview/ep000_wrist_f00179.pdf"
+  },
+  {
+    "name": "all_slots/ep000_wrist_f00179_attention",
+    "caption": "All sixteen AFA pooling maps, query IDs 0\u201315 in row-major order. Episode 0, wrist, frame 179. Shared 1\u00d7\u20138\u00d7 log attention lift; each map retains full-grid normalization.",
+    "png": "clean/all_slots/ep000_wrist_f00179_attention.png",
+    "pdf": "clean/all_slots/ep000_wrist_f00179_attention.pdf"
+  },
+  {
+    "name": "all_slots/ep000_wrist_f00179_routing_rgb",
+    "caption": "All sixteen competitive-routing RGB responsibility views, IDs 0\u201315 row-major. Absolute routing probabilities on white. These are input masks, not reconstructions or annotated object segments.",
+    "png": "clean/all_slots/ep000_wrist_f00179_routing_rgb.png",
+    "pdf": "clean/all_slots/ep000_wrist_f00179_routing_rgb.pdf"
+  },
+  {
+    "name": "overview/ep000_wrist_f00197",
+    "caption": "Episode 0, wrist, frame 197. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep000_wrist_f00197.png",
+    "pdf": "clean/overview/ep000_wrist_f00197.pdf"
+  },
+  {
+    "name": "overview/ep000_wrist_f00239",
+    "caption": "Episode 0, wrist, frame 239. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep000_wrist_f00239.png",
+    "pdf": "clean/overview/ep000_wrist_f00239.pdf"
+  },
+  {
+    "name": "all_slots/ep000_wrist_f00239_attention",
+    "caption": "All sixteen AFA pooling maps, query IDs 0\u201315 in row-major order. Episode 0, wrist, frame 239. Shared 1\u00d7\u20138\u00d7 log attention lift; each map retains full-grid normalization.",
+    "png": "clean/all_slots/ep000_wrist_f00239_attention.png",
+    "pdf": "clean/all_slots/ep000_wrist_f00239_attention.pdf"
+  },
+  {
+    "name": "all_slots/ep000_wrist_f00239_routing_rgb",
+    "caption": "All sixteen competitive-routing RGB responsibility views, IDs 0\u201315 row-major. Absolute routing probabilities on white. These are input masks, not reconstructions or annotated object segments.",
+    "png": "clean/all_slots/ep000_wrist_f00239_routing_rgb.png",
+    "pdf": "clean/all_slots/ep000_wrist_f00239_routing_rgb.pdf"
+  },
+  {
+    "name": "overview/ep000_wrist_f00245",
+    "caption": "Episode 0, wrist, frame 245. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep000_wrist_f00245.png",
+    "pdf": "clean/overview/ep000_wrist_f00245.pdf"
+  },
+  {
+    "name": "overview/ep000_wrist_f00289",
+    "caption": "Episode 0, wrist, frame 289. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep000_wrist_f00289.png",
+    "pdf": "clean/overview/ep000_wrist_f00289.pdf"
+  },
+  {
+    "name": "overview/ep000_wrist_f00309",
+    "caption": "Episode 0, wrist, frame 309. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep000_wrist_f00309.png",
+    "pdf": "clean/overview/ep000_wrist_f00309.pdf"
+  },
+  {
+    "name": "all_slots/ep000_wrist_f00309_attention",
+    "caption": "All sixteen AFA pooling maps, query IDs 0\u201315 in row-major order. Episode 0, wrist, frame 309. Shared 1\u00d7\u20138\u00d7 log attention lift; each map retains full-grid normalization.",
+    "png": "clean/all_slots/ep000_wrist_f00309_attention.png",
+    "pdf": "clean/all_slots/ep000_wrist_f00309_attention.pdf"
+  },
+  {
+    "name": "all_slots/ep000_wrist_f00309_routing_rgb",
+    "caption": "All sixteen competitive-routing RGB responsibility views, IDs 0\u201315 row-major. Absolute routing probabilities on white. These are input masks, not reconstructions or annotated object segments.",
+    "png": "clean/all_slots/ep000_wrist_f00309_routing_rgb.png",
+    "pdf": "clean/all_slots/ep000_wrist_f00309_routing_rgb.pdf"
+  },
+  {
+    "name": "timelines/ep000_wrist_policies",
+    "caption": "Rows: RGB; TurboVLA DINO CLS; AFA DINO CLS; TurboVLA ACT; AFA ACT projected through pooling maps. Same twelve frame indices. Cross-checkpoint differences include VLI versus early-BERT.",
+    "png": "clean/timelines/ep000_wrist_policies.png",
+    "pdf": "clean/timelines/ep000_wrist_policies.pdf"
+  },
+  {
+    "name": "timelines/ep000_wrist_slots_00_03",
+    "caption": "Rows: RGB then fixed slot IDs [0, 1, 2, 3]. Twelve chronological observations; no query reassignment.",
+    "png": "clean/timelines/ep000_wrist_slots_00_03.png",
+    "pdf": "clean/timelines/ep000_wrist_slots_00_03.pdf"
+  },
+  {
+    "name": "timelines/ep000_wrist_slots_04_07",
+    "caption": "Rows: RGB then fixed slot IDs [4, 5, 6, 7]. Twelve chronological observations; no query reassignment.",
+    "png": "clean/timelines/ep000_wrist_slots_04_07.png",
+    "pdf": "clean/timelines/ep000_wrist_slots_04_07.pdf"
+  },
+  {
+    "name": "timelines/ep000_wrist_slots_08_11",
+    "caption": "Rows: RGB then fixed slot IDs [8, 9, 10, 11]. Twelve chronological observations; no query reassignment.",
+    "png": "clean/timelines/ep000_wrist_slots_08_11.png",
+    "pdf": "clean/timelines/ep000_wrist_slots_08_11.pdf"
+  },
+  {
+    "name": "timelines/ep000_wrist_slots_12_15",
+    "caption": "Rows: RGB then fixed slot IDs [12, 13, 14, 15]. Twelve chronological observations; no query reassignment.",
+    "png": "clean/timelines/ep000_wrist_slots_12_15.png",
+    "pdf": "clean/timelines/ep000_wrist_slots_12_15.pdf"
+  },
+  {
+    "name": "timelines/ep000_wrist_geometry_semantics",
+    "caption": "Rows: RGB; geometry; keypoints_semantics; semantics; fused. All sixteen slots retained. PCA colors describe continuous embedding variation, not semantic categories.",
+    "png": "clean/timelines/ep000_wrist_geometry_semantics.png",
+    "pdf": "clean/timelines/ep000_wrist_geometry_semantics.pdf"
+  },
+  {
+    "name": "timelines/ep000_wrist_representation",
+    "caption": "Rows: RGB; dino_features_base; dino_features_afa; semantics; fused; post_transformer. All sixteen slots retained. PCA colors describe continuous embedding variation, not semantic categories.",
+    "png": "clean/timelines/ep000_wrist_representation.png",
+    "pdf": "clean/timelines/ep000_wrist_representation.pdf"
+  },
+  {
+    "name": "heads_layers/ep000_wrist_f00179_afa_dino_layers",
+    "caption": "afa, dino_layers, indices 0\u201311 in row-major order. DINO: CLS-to-patch, conditionally normalized after dropping CLS/register keys; ACT: final decoder layer, each of twelve action queries averaged across heads.",
+    "png": "clean/heads_layers/ep000_wrist_f00179_afa_dino_layers.png",
+    "pdf": "clean/heads_layers/ep000_wrist_f00179_afa_dino_layers.pdf"
+  },
+  {
+    "name": "heads_layers/ep000_wrist_f00179_afa_dino_heads",
+    "caption": "afa, dino_heads, indices 0\u201311 in row-major order. DINO: CLS-to-patch, conditionally normalized after dropping CLS/register keys; ACT: final decoder layer, each of twelve action queries averaged across heads.",
+    "png": "clean/heads_layers/ep000_wrist_f00179_afa_dino_heads.png",
+    "pdf": "clean/heads_layers/ep000_wrist_f00179_afa_dino_heads.pdf"
+  },
+  {
+    "name": "heads_layers/ep000_wrist_f00179_afa_act_queries",
+    "caption": "afa, act_queries, indices 0\u201311 in row-major order. DINO: CLS-to-patch, conditionally normalized after dropping CLS/register keys; ACT: final decoder layer, each of twelve action queries averaged across heads.",
+    "png": "clean/heads_layers/ep000_wrist_f00179_afa_act_queries.png",
+    "pdf": "clean/heads_layers/ep000_wrist_f00179_afa_act_queries.pdf"
+  },
+  {
+    "name": "heads_layers/ep000_wrist_f00179_afa_act_layer0_heads",
+    "caption": "afa, ACT layer 0, heads 0\u20137 row-major; averaged over action queries. All weights conditioned on this camera. AFA weights are projected through tokenizer maps.",
+    "png": "clean/heads_layers/ep000_wrist_f00179_afa_act_layer0_heads.png",
+    "pdf": "clean/heads_layers/ep000_wrist_f00179_afa_act_layer0_heads.pdf"
+  },
+  {
+    "name": "heads_layers/ep000_wrist_f00179_afa_act_layer1_heads",
+    "caption": "afa, ACT layer 1, heads 0\u20137 row-major; averaged over action queries. All weights conditioned on this camera. AFA weights are projected through tokenizer maps.",
+    "png": "clean/heads_layers/ep000_wrist_f00179_afa_act_layer1_heads.png",
+    "pdf": "clean/heads_layers/ep000_wrist_f00179_afa_act_layer1_heads.pdf"
+  },
+  {
+    "name": "heads_layers/ep000_wrist_f00179_afa_act_layer2_heads",
+    "caption": "afa, ACT layer 2, heads 0\u20137 row-major; averaged over action queries. All weights conditioned on this camera. AFA weights are projected through tokenizer maps.",
+    "png": "clean/heads_layers/ep000_wrist_f00179_afa_act_layer2_heads.png",
+    "pdf": "clean/heads_layers/ep000_wrist_f00179_afa_act_layer2_heads.pdf"
+  },
+  {
+    "name": "heads_layers/ep000_wrist_f00179_base_dino_layers",
+    "caption": "base, dino_layers, indices 0\u201311 in row-major order. DINO: CLS-to-patch, conditionally normalized after dropping CLS/register keys; ACT: final decoder layer, each of twelve action queries averaged across heads.",
+    "png": "clean/heads_layers/ep000_wrist_f00179_base_dino_layers.png",
+    "pdf": "clean/heads_layers/ep000_wrist_f00179_base_dino_layers.pdf"
+  },
+  {
+    "name": "heads_layers/ep000_wrist_f00179_base_dino_heads",
+    "caption": "base, dino_heads, indices 0\u201311 in row-major order. DINO: CLS-to-patch, conditionally normalized after dropping CLS/register keys; ACT: final decoder layer, each of twelve action queries averaged across heads.",
+    "png": "clean/heads_layers/ep000_wrist_f00179_base_dino_heads.png",
+    "pdf": "clean/heads_layers/ep000_wrist_f00179_base_dino_heads.pdf"
+  },
+  {
+    "name": "heads_layers/ep000_wrist_f00179_base_act_queries",
+    "caption": "base, act_queries, indices 0\u201311 in row-major order. DINO: CLS-to-patch, conditionally normalized after dropping CLS/register keys; ACT: final decoder layer, each of twelve action queries averaged across heads.",
+    "png": "clean/heads_layers/ep000_wrist_f00179_base_act_queries.png",
+    "pdf": "clean/heads_layers/ep000_wrist_f00179_base_act_queries.pdf"
+  },
+  {
+    "name": "heads_layers/ep000_wrist_f00179_base_act_layer0_heads",
+    "caption": "base, ACT layer 0, heads 0\u20137 row-major; averaged over action queries. All weights conditioned on this camera. AFA weights are projected through tokenizer maps.",
+    "png": "clean/heads_layers/ep000_wrist_f00179_base_act_layer0_heads.png",
+    "pdf": "clean/heads_layers/ep000_wrist_f00179_base_act_layer0_heads.pdf"
+  },
+  {
+    "name": "heads_layers/ep000_wrist_f00179_base_act_layer1_heads",
+    "caption": "base, ACT layer 1, heads 0\u20137 row-major; averaged over action queries. All weights conditioned on this camera. AFA weights are projected through tokenizer maps.",
+    "png": "clean/heads_layers/ep000_wrist_f00179_base_act_layer1_heads.png",
+    "pdf": "clean/heads_layers/ep000_wrist_f00179_base_act_layer1_heads.pdf"
+  },
+  {
+    "name": "heads_layers/ep000_wrist_f00179_base_act_layer2_heads",
+    "caption": "base, ACT layer 2, heads 0\u20137 row-major; averaged over action queries. All weights conditioned on this camera. AFA weights are projected through tokenizer maps.",
+    "png": "clean/heads_layers/ep000_wrist_f00179_base_act_layer2_heads.png",
+    "pdf": "clean/heads_layers/ep000_wrist_f00179_base_act_layer2_heads.pdf"
+  },
+  {
+    "name": "overview/ep049_front_f00003",
+    "caption": "Episode 49, front, frame 3. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep049_front_f00003.png",
+    "pdf": "clean/overview/ep049_front_f00003.pdf"
+  },
+  {
+    "name": "all_slots/ep049_front_f00003_attention",
+    "caption": "All sixteen AFA pooling maps, query IDs 0\u201315 in row-major order. Episode 49, front, frame 3. Shared 1\u00d7\u20138\u00d7 log attention lift; each map retains full-grid normalization.",
+    "png": "clean/all_slots/ep049_front_f00003_attention.png",
+    "pdf": "clean/all_slots/ep049_front_f00003_attention.pdf"
+  },
+  {
+    "name": "all_slots/ep049_front_f00003_routing_rgb",
+    "caption": "All sixteen competitive-routing RGB responsibility views, IDs 0\u201315 row-major. Absolute routing probabilities on white. These are input masks, not reconstructions or annotated object segments.",
+    "png": "clean/all_slots/ep049_front_f00003_routing_rgb.png",
+    "pdf": "clean/all_slots/ep049_front_f00003_routing_rgb.pdf"
+  },
+  {
+    "name": "overview/ep049_front_f00041",
+    "caption": "Episode 49, front, frame 41. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep049_front_f00041.png",
+    "pdf": "clean/overview/ep049_front_f00041.pdf"
+  },
+  {
+    "name": "overview/ep049_front_f00061",
+    "caption": "Episode 49, front, frame 61. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep049_front_f00061.png",
+    "pdf": "clean/overview/ep049_front_f00061.pdf"
+  },
+  {
+    "name": "all_slots/ep049_front_f00061_attention",
+    "caption": "All sixteen AFA pooling maps, query IDs 0\u201315 in row-major order. Episode 49, front, frame 61. Shared 1\u00d7\u20138\u00d7 log attention lift; each map retains full-grid normalization.",
+    "png": "clean/all_slots/ep049_front_f00061_attention.png",
+    "pdf": "clean/all_slots/ep049_front_f00061_attention.pdf"
+  },
+  {
+    "name": "all_slots/ep049_front_f00061_routing_rgb",
+    "caption": "All sixteen competitive-routing RGB responsibility views, IDs 0\u201315 row-major. Absolute routing probabilities on white. These are input masks, not reconstructions or annotated object segments.",
+    "png": "clean/all_slots/ep049_front_f00061_routing_rgb.png",
+    "pdf": "clean/all_slots/ep049_front_f00061_routing_rgb.pdf"
+  },
+  {
+    "name": "overview/ep049_front_f00065",
+    "caption": "Episode 49, front, frame 65. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep049_front_f00065.png",
+    "pdf": "clean/overview/ep049_front_f00065.pdf"
+  },
+  {
+    "name": "overview/ep049_front_f00087",
+    "caption": "Episode 49, front, frame 87. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep049_front_f00087.png",
+    "pdf": "clean/overview/ep049_front_f00087.pdf"
+  },
+  {
+    "name": "all_slots/ep049_front_f00087_attention",
+    "caption": "All sixteen AFA pooling maps, query IDs 0\u201315 in row-major order. Episode 49, front, frame 87. Shared 1\u00d7\u20138\u00d7 log attention lift; each map retains full-grid normalization.",
+    "png": "clean/all_slots/ep049_front_f00087_attention.png",
+    "pdf": "clean/all_slots/ep049_front_f00087_attention.pdf"
+  },
+  {
+    "name": "all_slots/ep049_front_f00087_routing_rgb",
+    "caption": "All sixteen competitive-routing RGB responsibility views, IDs 0\u201315 row-major. Absolute routing probabilities on white. These are input masks, not reconstructions or annotated object segments.",
+    "png": "clean/all_slots/ep049_front_f00087_routing_rgb.png",
+    "pdf": "clean/all_slots/ep049_front_f00087_routing_rgb.pdf"
+  },
+  {
+    "name": "overview/ep049_front_f00125",
+    "caption": "Episode 49, front, frame 125. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep049_front_f00125.png",
+    "pdf": "clean/overview/ep049_front_f00125.pdf"
+  },
+  {
+    "name": "overview/ep049_front_f00129",
+    "caption": "Episode 49, front, frame 129. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep049_front_f00129.png",
+    "pdf": "clean/overview/ep049_front_f00129.pdf"
+  },
+  {
+    "name": "all_slots/ep049_front_f00129_attention",
+    "caption": "All sixteen AFA pooling maps, query IDs 0\u201315 in row-major order. Episode 49, front, frame 129. Shared 1\u00d7\u20138\u00d7 log attention lift; each map retains full-grid normalization.",
+    "png": "clean/all_slots/ep049_front_f00129_attention.png",
+    "pdf": "clean/all_slots/ep049_front_f00129_attention.pdf"
+  },
+  {
+    "name": "all_slots/ep049_front_f00129_routing_rgb",
+    "caption": "All sixteen competitive-routing RGB responsibility views, IDs 0\u201315 row-major. Absolute routing probabilities on white. These are input masks, not reconstructions or annotated object segments.",
+    "png": "clean/all_slots/ep049_front_f00129_routing_rgb.png",
+    "pdf": "clean/all_slots/ep049_front_f00129_routing_rgb.pdf"
+  },
+  {
+    "name": "overview/ep049_front_f00167",
+    "caption": "Episode 49, front, frame 167. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep049_front_f00167.png",
+    "pdf": "clean/overview/ep049_front_f00167.pdf"
+  },
+  {
+    "name": "overview/ep049_front_f00183",
+    "caption": "Episode 49, front, frame 183. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep049_front_f00183.png",
+    "pdf": "clean/overview/ep049_front_f00183.pdf"
+  },
+  {
+    "name": "all_slots/ep049_front_f00183_attention",
+    "caption": "All sixteen AFA pooling maps, query IDs 0\u201315 in row-major order. Episode 49, front, frame 183. Shared 1\u00d7\u20138\u00d7 log attention lift; each map retains full-grid normalization.",
+    "png": "clean/all_slots/ep049_front_f00183_attention.png",
+    "pdf": "clean/all_slots/ep049_front_f00183_attention.pdf"
+  },
+  {
+    "name": "all_slots/ep049_front_f00183_routing_rgb",
+    "caption": "All sixteen competitive-routing RGB responsibility views, IDs 0\u201315 row-major. Absolute routing probabilities on white. These are input masks, not reconstructions or annotated object segments.",
+    "png": "clean/all_slots/ep049_front_f00183_routing_rgb.png",
+    "pdf": "clean/all_slots/ep049_front_f00183_routing_rgb.pdf"
+  },
+  {
+    "name": "overview/ep049_front_f00200",
+    "caption": "Episode 49, front, frame 200. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep049_front_f00200.png",
+    "pdf": "clean/overview/ep049_front_f00200.pdf"
+  },
+  {
+    "name": "overview/ep049_front_f00209",
+    "caption": "Episode 49, front, frame 209. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep049_front_f00209.png",
+    "pdf": "clean/overview/ep049_front_f00209.pdf"
+  },
+  {
+    "name": "overview/ep049_front_f00245",
+    "caption": "Episode 49, front, frame 245. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep049_front_f00245.png",
+    "pdf": "clean/overview/ep049_front_f00245.pdf"
+  },
+  {
+    "name": "all_slots/ep049_front_f00245_attention",
+    "caption": "All sixteen AFA pooling maps, query IDs 0\u201315 in row-major order. Episode 49, front, frame 245. Shared 1\u00d7\u20138\u00d7 log attention lift; each map retains full-grid normalization.",
+    "png": "clean/all_slots/ep049_front_f00245_attention.png",
+    "pdf": "clean/all_slots/ep049_front_f00245_attention.pdf"
+  },
+  {
+    "name": "all_slots/ep049_front_f00245_routing_rgb",
+    "caption": "All sixteen competitive-routing RGB responsibility views, IDs 0\u201315 row-major. Absolute routing probabilities on white. These are input masks, not reconstructions or annotated object segments.",
+    "png": "clean/all_slots/ep049_front_f00245_routing_rgb.png",
+    "pdf": "clean/all_slots/ep049_front_f00245_routing_rgb.pdf"
+  },
+  {
+    "name": "timelines/ep049_front_policies",
+    "caption": "Rows: RGB; TurboVLA DINO CLS; AFA DINO CLS; TurboVLA ACT; AFA ACT projected through pooling maps. Same twelve frame indices. Cross-checkpoint differences include VLI versus early-BERT.",
+    "png": "clean/timelines/ep049_front_policies.png",
+    "pdf": "clean/timelines/ep049_front_policies.pdf"
+  },
+  {
+    "name": "timelines/ep049_front_slots_00_03",
+    "caption": "Rows: RGB then fixed slot IDs [0, 1, 2, 3]. Twelve chronological observations; no query reassignment.",
+    "png": "clean/timelines/ep049_front_slots_00_03.png",
+    "pdf": "clean/timelines/ep049_front_slots_00_03.pdf"
+  },
+  {
+    "name": "timelines/ep049_front_slots_04_07",
+    "caption": "Rows: RGB then fixed slot IDs [4, 5, 6, 7]. Twelve chronological observations; no query reassignment.",
+    "png": "clean/timelines/ep049_front_slots_04_07.png",
+    "pdf": "clean/timelines/ep049_front_slots_04_07.pdf"
+  },
+  {
+    "name": "timelines/ep049_front_slots_08_11",
+    "caption": "Rows: RGB then fixed slot IDs [8, 9, 10, 11]. Twelve chronological observations; no query reassignment.",
+    "png": "clean/timelines/ep049_front_slots_08_11.png",
+    "pdf": "clean/timelines/ep049_front_slots_08_11.pdf"
+  },
+  {
+    "name": "timelines/ep049_front_slots_12_15",
+    "caption": "Rows: RGB then fixed slot IDs [12, 13, 14, 15]. Twelve chronological observations; no query reassignment.",
+    "png": "clean/timelines/ep049_front_slots_12_15.png",
+    "pdf": "clean/timelines/ep049_front_slots_12_15.pdf"
+  },
+  {
+    "name": "timelines/ep049_front_geometry_semantics",
+    "caption": "Rows: RGB; geometry; keypoints_semantics; semantics; fused. All sixteen slots retained. PCA colors describe continuous embedding variation, not semantic categories.",
+    "png": "clean/timelines/ep049_front_geometry_semantics.png",
+    "pdf": "clean/timelines/ep049_front_geometry_semantics.pdf"
+  },
+  {
+    "name": "timelines/ep049_front_representation",
+    "caption": "Rows: RGB; dino_features_base; dino_features_afa; semantics; fused; post_transformer. All sixteen slots retained. PCA colors describe continuous embedding variation, not semantic categories.",
+    "png": "clean/timelines/ep049_front_representation.png",
+    "pdf": "clean/timelines/ep049_front_representation.pdf"
+  },
+  {
+    "name": "heads_layers/ep049_front_f00129_afa_dino_layers",
+    "caption": "afa, dino_layers, indices 0\u201311 in row-major order. DINO: CLS-to-patch, conditionally normalized after dropping CLS/register keys; ACT: final decoder layer, each of twelve action queries averaged across heads.",
+    "png": "clean/heads_layers/ep049_front_f00129_afa_dino_layers.png",
+    "pdf": "clean/heads_layers/ep049_front_f00129_afa_dino_layers.pdf"
+  },
+  {
+    "name": "heads_layers/ep049_front_f00129_afa_dino_heads",
+    "caption": "afa, dino_heads, indices 0\u201311 in row-major order. DINO: CLS-to-patch, conditionally normalized after dropping CLS/register keys; ACT: final decoder layer, each of twelve action queries averaged across heads.",
+    "png": "clean/heads_layers/ep049_front_f00129_afa_dino_heads.png",
+    "pdf": "clean/heads_layers/ep049_front_f00129_afa_dino_heads.pdf"
+  },
+  {
+    "name": "heads_layers/ep049_front_f00129_afa_act_queries",
+    "caption": "afa, act_queries, indices 0\u201311 in row-major order. DINO: CLS-to-patch, conditionally normalized after dropping CLS/register keys; ACT: final decoder layer, each of twelve action queries averaged across heads.",
+    "png": "clean/heads_layers/ep049_front_f00129_afa_act_queries.png",
+    "pdf": "clean/heads_layers/ep049_front_f00129_afa_act_queries.pdf"
+  },
+  {
+    "name": "heads_layers/ep049_front_f00129_afa_act_layer0_heads",
+    "caption": "afa, ACT layer 0, heads 0\u20137 row-major; averaged over action queries. All weights conditioned on this camera. AFA weights are projected through tokenizer maps.",
+    "png": "clean/heads_layers/ep049_front_f00129_afa_act_layer0_heads.png",
+    "pdf": "clean/heads_layers/ep049_front_f00129_afa_act_layer0_heads.pdf"
+  },
+  {
+    "name": "heads_layers/ep049_front_f00129_afa_act_layer1_heads",
+    "caption": "afa, ACT layer 1, heads 0\u20137 row-major; averaged over action queries. All weights conditioned on this camera. AFA weights are projected through tokenizer maps.",
+    "png": "clean/heads_layers/ep049_front_f00129_afa_act_layer1_heads.png",
+    "pdf": "clean/heads_layers/ep049_front_f00129_afa_act_layer1_heads.pdf"
+  },
+  {
+    "name": "heads_layers/ep049_front_f00129_afa_act_layer2_heads",
+    "caption": "afa, ACT layer 2, heads 0\u20137 row-major; averaged over action queries. All weights conditioned on this camera. AFA weights are projected through tokenizer maps.",
+    "png": "clean/heads_layers/ep049_front_f00129_afa_act_layer2_heads.png",
+    "pdf": "clean/heads_layers/ep049_front_f00129_afa_act_layer2_heads.pdf"
+  },
+  {
+    "name": "heads_layers/ep049_front_f00129_base_dino_layers",
+    "caption": "base, dino_layers, indices 0\u201311 in row-major order. DINO: CLS-to-patch, conditionally normalized after dropping CLS/register keys; ACT: final decoder layer, each of twelve action queries averaged across heads.",
+    "png": "clean/heads_layers/ep049_front_f00129_base_dino_layers.png",
+    "pdf": "clean/heads_layers/ep049_front_f00129_base_dino_layers.pdf"
+  },
+  {
+    "name": "heads_layers/ep049_front_f00129_base_dino_heads",
+    "caption": "base, dino_heads, indices 0\u201311 in row-major order. DINO: CLS-to-patch, conditionally normalized after dropping CLS/register keys; ACT: final decoder layer, each of twelve action queries averaged across heads.",
+    "png": "clean/heads_layers/ep049_front_f00129_base_dino_heads.png",
+    "pdf": "clean/heads_layers/ep049_front_f00129_base_dino_heads.pdf"
+  },
+  {
+    "name": "heads_layers/ep049_front_f00129_base_act_queries",
+    "caption": "base, act_queries, indices 0\u201311 in row-major order. DINO: CLS-to-patch, conditionally normalized after dropping CLS/register keys; ACT: final decoder layer, each of twelve action queries averaged across heads.",
+    "png": "clean/heads_layers/ep049_front_f00129_base_act_queries.png",
+    "pdf": "clean/heads_layers/ep049_front_f00129_base_act_queries.pdf"
+  },
+  {
+    "name": "heads_layers/ep049_front_f00129_base_act_layer0_heads",
+    "caption": "base, ACT layer 0, heads 0\u20137 row-major; averaged over action queries. All weights conditioned on this camera. AFA weights are projected through tokenizer maps.",
+    "png": "clean/heads_layers/ep049_front_f00129_base_act_layer0_heads.png",
+    "pdf": "clean/heads_layers/ep049_front_f00129_base_act_layer0_heads.pdf"
+  },
+  {
+    "name": "heads_layers/ep049_front_f00129_base_act_layer1_heads",
+    "caption": "base, ACT layer 1, heads 0\u20137 row-major; averaged over action queries. All weights conditioned on this camera. AFA weights are projected through tokenizer maps.",
+    "png": "clean/heads_layers/ep049_front_f00129_base_act_layer1_heads.png",
+    "pdf": "clean/heads_layers/ep049_front_f00129_base_act_layer1_heads.pdf"
+  },
+  {
+    "name": "heads_layers/ep049_front_f00129_base_act_layer2_heads",
+    "caption": "base, ACT layer 2, heads 0\u20137 row-major; averaged over action queries. All weights conditioned on this camera. AFA weights are projected through tokenizer maps.",
+    "png": "clean/heads_layers/ep049_front_f00129_base_act_layer2_heads.png",
+    "pdf": "clean/heads_layers/ep049_front_f00129_base_act_layer2_heads.pdf"
+  },
+  {
+    "name": "overview/ep049_wrist_f00005",
+    "caption": "Episode 49, wrist, frame 5. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep049_wrist_f00005.png",
+    "pdf": "clean/overview/ep049_wrist_f00005.pdf"
+  },
+  {
+    "name": "all_slots/ep049_wrist_f00005_attention",
+    "caption": "All sixteen AFA pooling maps, query IDs 0\u201315 in row-major order. Episode 49, wrist, frame 5. Shared 1\u00d7\u20138\u00d7 log attention lift; each map retains full-grid normalization.",
+    "png": "clean/all_slots/ep049_wrist_f00005_attention.png",
+    "pdf": "clean/all_slots/ep049_wrist_f00005_attention.pdf"
+  },
+  {
+    "name": "all_slots/ep049_wrist_f00005_routing_rgb",
+    "caption": "All sixteen competitive-routing RGB responsibility views, IDs 0\u201315 row-major. Absolute routing probabilities on white. These are input masks, not reconstructions or annotated object segments.",
+    "png": "clean/all_slots/ep049_wrist_f00005_routing_rgb.png",
+    "pdf": "clean/all_slots/ep049_wrist_f00005_routing_rgb.pdf"
+  },
+  {
+    "name": "overview/ep049_wrist_f00029",
+    "caption": "Episode 49, wrist, frame 29. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep049_wrist_f00029.png",
+    "pdf": "clean/overview/ep049_wrist_f00029.pdf"
+  },
+  {
+    "name": "overview/ep049_wrist_f00061",
+    "caption": "Episode 49, wrist, frame 61. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep049_wrist_f00061.png",
+    "pdf": "clean/overview/ep049_wrist_f00061.pdf"
+  },
+  {
+    "name": "all_slots/ep049_wrist_f00061_attention",
+    "caption": "All sixteen AFA pooling maps, query IDs 0\u201315 in row-major order. Episode 49, wrist, frame 61. Shared 1\u00d7\u20138\u00d7 log attention lift; each map retains full-grid normalization.",
+    "png": "clean/all_slots/ep049_wrist_f00061_attention.png",
+    "pdf": "clean/all_slots/ep049_wrist_f00061_attention.pdf"
+  },
+  {
+    "name": "all_slots/ep049_wrist_f00061_routing_rgb",
+    "caption": "All sixteen competitive-routing RGB responsibility views, IDs 0\u201315 row-major. Absolute routing probabilities on white. These are input masks, not reconstructions or annotated object segments.",
+    "png": "clean/all_slots/ep049_wrist_f00061_routing_rgb.png",
+    "pdf": "clean/all_slots/ep049_wrist_f00061_routing_rgb.pdf"
+  },
+  {
+    "name": "overview/ep049_wrist_f00065",
+    "caption": "Episode 49, wrist, frame 65. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep049_wrist_f00065.png",
+    "pdf": "clean/overview/ep049_wrist_f00065.pdf"
+  },
+  {
+    "name": "overview/ep049_wrist_f00084",
+    "caption": "Episode 49, wrist, frame 84. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep049_wrist_f00084.png",
+    "pdf": "clean/overview/ep049_wrist_f00084.pdf"
+  },
+  {
+    "name": "all_slots/ep049_wrist_f00084_attention",
+    "caption": "All sixteen AFA pooling maps, query IDs 0\u201315 in row-major order. Episode 49, wrist, frame 84. Shared 1\u00d7\u20138\u00d7 log attention lift; each map retains full-grid normalization.",
+    "png": "clean/all_slots/ep049_wrist_f00084_attention.png",
+    "pdf": "clean/all_slots/ep049_wrist_f00084_attention.pdf"
+  },
+  {
+    "name": "all_slots/ep049_wrist_f00084_routing_rgb",
+    "caption": "All sixteen competitive-routing RGB responsibility views, IDs 0\u201315 row-major. Absolute routing probabilities on white. These are input masks, not reconstructions or annotated object segments.",
+    "png": "clean/all_slots/ep049_wrist_f00084_routing_rgb.png",
+    "pdf": "clean/all_slots/ep049_wrist_f00084_routing_rgb.pdf"
+  },
+  {
+    "name": "overview/ep049_wrist_f00124",
+    "caption": "Episode 49, wrist, frame 124. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep049_wrist_f00124.png",
+    "pdf": "clean/overview/ep049_wrist_f00124.pdf"
+  },
+  {
+    "name": "overview/ep049_wrist_f00145",
+    "caption": "Episode 49, wrist, frame 145. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep049_wrist_f00145.png",
+    "pdf": "clean/overview/ep049_wrist_f00145.pdf"
+  },
+  {
+    "name": "all_slots/ep049_wrist_f00145_attention",
+    "caption": "All sixteen AFA pooling maps, query IDs 0\u201315 in row-major order. Episode 49, wrist, frame 145. Shared 1\u00d7\u20138\u00d7 log attention lift; each map retains full-grid normalization.",
+    "png": "clean/all_slots/ep049_wrist_f00145_attention.png",
+    "pdf": "clean/all_slots/ep049_wrist_f00145_attention.pdf"
+  },
+  {
+    "name": "all_slots/ep049_wrist_f00145_routing_rgb",
+    "caption": "All sixteen competitive-routing RGB responsibility views, IDs 0\u201315 row-major. Absolute routing probabilities on white. These are input masks, not reconstructions or annotated object segments.",
+    "png": "clean/all_slots/ep049_wrist_f00145_routing_rgb.png",
+    "pdf": "clean/all_slots/ep049_wrist_f00145_routing_rgb.pdf"
+  },
+  {
+    "name": "overview/ep049_wrist_f00157",
+    "caption": "Episode 49, wrist, frame 157. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep049_wrist_f00157.png",
+    "pdf": "clean/overview/ep049_wrist_f00157.pdf"
+  },
+  {
+    "name": "overview/ep049_wrist_f00187",
+    "caption": "Episode 49, wrist, frame 187. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep049_wrist_f00187.png",
+    "pdf": "clean/overview/ep049_wrist_f00187.pdf"
+  },
+  {
+    "name": "all_slots/ep049_wrist_f00187_attention",
+    "caption": "All sixteen AFA pooling maps, query IDs 0\u201315 in row-major order. Episode 49, wrist, frame 187. Shared 1\u00d7\u20138\u00d7 log attention lift; each map retains full-grid normalization.",
+    "png": "clean/all_slots/ep049_wrist_f00187_attention.png",
+    "pdf": "clean/all_slots/ep049_wrist_f00187_attention.pdf"
+  },
+  {
+    "name": "all_slots/ep049_wrist_f00187_routing_rgb",
+    "caption": "All sixteen competitive-routing RGB responsibility views, IDs 0\u201315 row-major. Absolute routing probabilities on white. These are input masks, not reconstructions or annotated object segments.",
+    "png": "clean/all_slots/ep049_wrist_f00187_routing_rgb.png",
+    "pdf": "clean/all_slots/ep049_wrist_f00187_routing_rgb.pdf"
+  },
+  {
+    "name": "overview/ep049_wrist_f00189",
+    "caption": "Episode 49, wrist, frame 189. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep049_wrist_f00189.png",
+    "pdf": "clean/overview/ep049_wrist_f00189.pdf"
+  },
+  {
+    "name": "overview/ep049_wrist_f00228",
+    "caption": "Episode 49, wrist, frame 228. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep049_wrist_f00228.png",
+    "pdf": "clean/overview/ep049_wrist_f00228.pdf"
+  },
+  {
+    "name": "overview/ep049_wrist_f00243",
+    "caption": "Episode 49, wrist, frame 243. Row-major: RGB; AFA DINO CLS; AFA ACT; geometry with one-sigma spatial ellipses; winning competitive query; all keypoints colored by pooled-semantic PCA; dense DINO-feature PCA; pooled-semantic PCA projected by routing; fused-token PCA projected by routing with keypoints. Shared bases/scales across both episodes within camera.",
+    "png": "clean/overview/ep049_wrist_f00243.png",
+    "pdf": "clean/overview/ep049_wrist_f00243.pdf"
+  },
+  {
+    "name": "all_slots/ep049_wrist_f00243_attention",
+    "caption": "All sixteen AFA pooling maps, query IDs 0\u201315 in row-major order. Episode 49, wrist, frame 243. Shared 1\u00d7\u20138\u00d7 log attention lift; each map retains full-grid normalization.",
+    "png": "clean/all_slots/ep049_wrist_f00243_attention.png",
+    "pdf": "clean/all_slots/ep049_wrist_f00243_attention.pdf"
+  },
+  {
+    "name": "all_slots/ep049_wrist_f00243_routing_rgb",
+    "caption": "All sixteen competitive-routing RGB responsibility views, IDs 0\u201315 row-major. Absolute routing probabilities on white. These are input masks, not reconstructions or annotated object segments.",
+    "png": "clean/all_slots/ep049_wrist_f00243_routing_rgb.png",
+    "pdf": "clean/all_slots/ep049_wrist_f00243_routing_rgb.pdf"
+  },
+  {
+    "name": "timelines/ep049_wrist_policies",
+    "caption": "Rows: RGB; TurboVLA DINO CLS; AFA DINO CLS; TurboVLA ACT; AFA ACT projected through pooling maps. Same twelve frame indices. Cross-checkpoint differences include VLI versus early-BERT.",
+    "png": "clean/timelines/ep049_wrist_policies.png",
+    "pdf": "clean/timelines/ep049_wrist_policies.pdf"
+  },
+  {
+    "name": "timelines/ep049_wrist_slots_00_03",
+    "caption": "Rows: RGB then fixed slot IDs [0, 1, 2, 3]. Twelve chronological observations; no query reassignment.",
+    "png": "clean/timelines/ep049_wrist_slots_00_03.png",
+    "pdf": "clean/timelines/ep049_wrist_slots_00_03.pdf"
+  },
+  {
+    "name": "timelines/ep049_wrist_slots_04_07",
+    "caption": "Rows: RGB then fixed slot IDs [4, 5, 6, 7]. Twelve chronological observations; no query reassignment.",
+    "png": "clean/timelines/ep049_wrist_slots_04_07.png",
+    "pdf": "clean/timelines/ep049_wrist_slots_04_07.pdf"
+  },
+  {
+    "name": "timelines/ep049_wrist_slots_08_11",
+    "caption": "Rows: RGB then fixed slot IDs [8, 9, 10, 11]. Twelve chronological observations; no query reassignment.",
+    "png": "clean/timelines/ep049_wrist_slots_08_11.png",
+    "pdf": "clean/timelines/ep049_wrist_slots_08_11.pdf"
+  },
+  {
+    "name": "timelines/ep049_wrist_slots_12_15",
+    "caption": "Rows: RGB then fixed slot IDs [12, 13, 14, 15]. Twelve chronological observations; no query reassignment.",
+    "png": "clean/timelines/ep049_wrist_slots_12_15.png",
+    "pdf": "clean/timelines/ep049_wrist_slots_12_15.pdf"
+  },
+  {
+    "name": "timelines/ep049_wrist_geometry_semantics",
+    "caption": "Rows: RGB; geometry; keypoints_semantics; semantics; fused. All sixteen slots retained. PCA colors describe continuous embedding variation, not semantic categories.",
+    "png": "clean/timelines/ep049_wrist_geometry_semantics.png",
+    "pdf": "clean/timelines/ep049_wrist_geometry_semantics.pdf"
+  },
+  {
+    "name": "timelines/ep049_wrist_representation",
+    "caption": "Rows: RGB; dino_features_base; dino_features_afa; semantics; fused; post_transformer. All sixteen slots retained. PCA colors describe continuous embedding variation, not semantic categories.",
+    "png": "clean/timelines/ep049_wrist_representation.png",
+    "pdf": "clean/timelines/ep049_wrist_representation.pdf"
+  },
+  {
+    "name": "heads_layers/ep049_wrist_f00145_afa_dino_layers",
+    "caption": "afa, dino_layers, indices 0\u201311 in row-major order. DINO: CLS-to-patch, conditionally normalized after dropping CLS/register keys; ACT: final decoder layer, each of twelve action queries averaged across heads.",
+    "png": "clean/heads_layers/ep049_wrist_f00145_afa_dino_layers.png",
+    "pdf": "clean/heads_layers/ep049_wrist_f00145_afa_dino_layers.pdf"
+  },
+  {
+    "name": "heads_layers/ep049_wrist_f00145_afa_dino_heads",
+    "caption": "afa, dino_heads, indices 0\u201311 in row-major order. DINO: CLS-to-patch, conditionally normalized after dropping CLS/register keys; ACT: final decoder layer, each of twelve action queries averaged across heads.",
+    "png": "clean/heads_layers/ep049_wrist_f00145_afa_dino_heads.png",
+    "pdf": "clean/heads_layers/ep049_wrist_f00145_afa_dino_heads.pdf"
+  },
+  {
+    "name": "heads_layers/ep049_wrist_f00145_afa_act_queries",
+    "caption": "afa, act_queries, indices 0\u201311 in row-major order. DINO: CLS-to-patch, conditionally normalized after dropping CLS/register keys; ACT: final decoder layer, each of twelve action queries averaged across heads.",
+    "png": "clean/heads_layers/ep049_wrist_f00145_afa_act_queries.png",
+    "pdf": "clean/heads_layers/ep049_wrist_f00145_afa_act_queries.pdf"
+  },
+  {
+    "name": "heads_layers/ep049_wrist_f00145_afa_act_layer0_heads",
+    "caption": "afa, ACT layer 0, heads 0\u20137 row-major; averaged over action queries. All weights conditioned on this camera. AFA weights are projected through tokenizer maps.",
+    "png": "clean/heads_layers/ep049_wrist_f00145_afa_act_layer0_heads.png",
+    "pdf": "clean/heads_layers/ep049_wrist_f00145_afa_act_layer0_heads.pdf"
+  },
+  {
+    "name": "heads_layers/ep049_wrist_f00145_afa_act_layer1_heads",
+    "caption": "afa, ACT layer 1, heads 0\u20137 row-major; averaged over action queries. All weights conditioned on this camera. AFA weights are projected through tokenizer maps.",
+    "png": "clean/heads_layers/ep049_wrist_f00145_afa_act_layer1_heads.png",
+    "pdf": "clean/heads_layers/ep049_wrist_f00145_afa_act_layer1_heads.pdf"
+  },
+  {
+    "name": "heads_layers/ep049_wrist_f00145_afa_act_layer2_heads",
+    "caption": "afa, ACT layer 2, heads 0\u20137 row-major; averaged over action queries. All weights conditioned on this camera. AFA weights are projected through tokenizer maps.",
+    "png": "clean/heads_layers/ep049_wrist_f00145_afa_act_layer2_heads.png",
+    "pdf": "clean/heads_layers/ep049_wrist_f00145_afa_act_layer2_heads.pdf"
+  },
+  {
+    "name": "heads_layers/ep049_wrist_f00145_base_dino_layers",
+    "caption": "base, dino_layers, indices 0\u201311 in row-major order. DINO: CLS-to-patch, conditionally normalized after dropping CLS/register keys; ACT: final decoder layer, each of twelve action queries averaged across heads.",
+    "png": "clean/heads_layers/ep049_wrist_f00145_base_dino_layers.png",
+    "pdf": "clean/heads_layers/ep049_wrist_f00145_base_dino_layers.pdf"
+  },
+  {
+    "name": "heads_layers/ep049_wrist_f00145_base_dino_heads",
+    "caption": "base, dino_heads, indices 0\u201311 in row-major order. DINO: CLS-to-patch, conditionally normalized after dropping CLS/register keys; ACT: final decoder layer, each of twelve action queries averaged across heads.",
+    "png": "clean/heads_layers/ep049_wrist_f00145_base_dino_heads.png",
+    "pdf": "clean/heads_layers/ep049_wrist_f00145_base_dino_heads.pdf"
+  },
+  {
+    "name": "heads_layers/ep049_wrist_f00145_base_act_queries",
+    "caption": "base, act_queries, indices 0\u201311 in row-major order. DINO: CLS-to-patch, conditionally normalized after dropping CLS/register keys; ACT: final decoder layer, each of twelve action queries averaged across heads.",
+    "png": "clean/heads_layers/ep049_wrist_f00145_base_act_queries.png",
+    "pdf": "clean/heads_layers/ep049_wrist_f00145_base_act_queries.pdf"
+  },
+  {
+    "name": "heads_layers/ep049_wrist_f00145_base_act_layer0_heads",
+    "caption": "base, ACT layer 0, heads 0\u20137 row-major; averaged over action queries. All weights conditioned on this camera. AFA weights are projected through tokenizer maps.",
+    "png": "clean/heads_layers/ep049_wrist_f00145_base_act_layer0_heads.png",
+    "pdf": "clean/heads_layers/ep049_wrist_f00145_base_act_layer0_heads.pdf"
+  },
+  {
+    "name": "heads_layers/ep049_wrist_f00145_base_act_layer1_heads",
+    "caption": "base, ACT layer 1, heads 0\u20137 row-major; averaged over action queries. All weights conditioned on this camera. AFA weights are projected through tokenizer maps.",
+    "png": "clean/heads_layers/ep049_wrist_f00145_base_act_layer1_heads.png",
+    "pdf": "clean/heads_layers/ep049_wrist_f00145_base_act_layer1_heads.pdf"
+  },
+  {
+    "name": "heads_layers/ep049_wrist_f00145_base_act_layer2_heads",
+    "caption": "base, ACT layer 2, heads 0\u20137 row-major; averaged over action queries. All weights conditioned on this camera. AFA weights are projected through tokenizer maps.",
+    "png": "clean/heads_layers/ep049_wrist_f00145_base_act_layer2_heads.png",
+    "pdf": "clean/heads_layers/ep049_wrist_f00145_base_act_layer2_heads.pdf"
+  },
+  {
+    "name": "charts/ep000_action_replay",
+    "caption": "Offline action replay across all frames. Six robot dimensions: recorded state, recorded executed commands, and first action in the AFA and TurboVLA predicted chunks. Predictions are not executed; this is descriptive command agreement on a fixed recorded observation stream, not closed-loop task performance.",
+    "png": "charts/ep000_action_replay.png",
+    "pdf": "charts/ep000_action_replay.pdf"
+  },
+  {
+    "name": "charts/ep000_front_all_frame_metrics",
+    "caption": "All-frame diagnostics for all sixteen queries. Row-major: normalized spatial entropy; ACT slot weight; geometric/semantic component norm ratio; keypoint x; keypoint y; absolute ACT mass assigned to this camera in the two policies. Fixed query colors. Coordinates refer to the full normalized model grid.",
+    "png": "charts/ep000_front_all_frame_metrics.png",
+    "pdf": "charts/ep000_front_all_frame_metrics.pdf"
+  },
+  {
+    "name": "charts/ep000_front_embedding_paths",
+    "caption": "Separate PCA trajectories for the geometric component, pooled semantic component and fused tokens. Colors denote fixed query IDs; paths cover every frame and dots mark the twelve displayed observations. Components are fitted across both episodes within camera; axes from different representation spaces are not interchangeable.",
+    "png": "charts/ep000_front_embedding_paths.png",
+    "pdf": "charts/ep000_front_embedding_paths.pdf"
+  },
+  {
+    "name": "charts/ep000_front_f00000_semantic_similarity",
+    "caption": "Cosine similarity of all sixteen projected pooled semantic embeddings. Shared scale \u22121 to 1. This describes feature similarity rather than spatial overlap or annotated object categories.",
+    "png": "charts/ep000_front_f00000_semantic_similarity.png",
+    "pdf": "charts/ep000_front_f00000_semantic_similarity.pdf"
+  },
+  {
+    "name": "charts/ep000_front_f00000_spatial_similarity",
+    "caption": "Centered cosine similarity of all sixteen spatial pooling distributions, after subtracting the uniform floor. Shared scale \u22121 to 1. Off-diagonal similarity indicates spatial redundancy.",
+    "png": "charts/ep000_front_f00000_spatial_similarity.png",
+    "pdf": "charts/ep000_front_f00000_spatial_similarity.pdf"
+  },
+  {
+    "name": "charts/ep000_front_f00057_semantic_similarity",
+    "caption": "Cosine similarity of all sixteen projected pooled semantic embeddings. Shared scale \u22121 to 1. This describes feature similarity rather than spatial overlap or annotated object categories.",
+    "png": "charts/ep000_front_f00057_semantic_similarity.png",
+    "pdf": "charts/ep000_front_f00057_semantic_similarity.pdf"
+  },
+  {
+    "name": "charts/ep000_front_f00057_spatial_similarity",
+    "caption": "Centered cosine similarity of all sixteen spatial pooling distributions, after subtracting the uniform floor. Shared scale \u22121 to 1. Off-diagonal similarity indicates spatial redundancy.",
+    "png": "charts/ep000_front_f00057_spatial_similarity.png",
+    "pdf": "charts/ep000_front_f00057_spatial_similarity.pdf"
+  },
+  {
+    "name": "charts/ep000_front_f00134_semantic_similarity",
+    "caption": "Cosine similarity of all sixteen projected pooled semantic embeddings. Shared scale \u22121 to 1. This describes feature similarity rather than spatial overlap or annotated object categories.",
+    "png": "charts/ep000_front_f00134_semantic_similarity.png",
+    "pdf": "charts/ep000_front_f00134_semantic_similarity.pdf"
+  },
+  {
+    "name": "charts/ep000_front_f00134_spatial_similarity",
+    "caption": "Centered cosine similarity of all sixteen spatial pooling distributions, after subtracting the uniform floor. Shared scale \u22121 to 1. Off-diagonal similarity indicates spatial redundancy.",
+    "png": "charts/ep000_front_f00134_spatial_similarity.png",
+    "pdf": "charts/ep000_front_f00134_spatial_similarity.pdf"
+  },
+  {
+    "name": "charts/ep000_front_f00179_semantic_similarity",
+    "caption": "Cosine similarity of all sixteen projected pooled semantic embeddings. Shared scale \u22121 to 1. This describes feature similarity rather than spatial overlap or annotated object categories.",
+    "png": "charts/ep000_front_f00179_semantic_similarity.png",
+    "pdf": "charts/ep000_front_f00179_semantic_similarity.pdf"
+  },
+  {
+    "name": "charts/ep000_front_f00179_slot_self_attention",
+    "caption": "AFA post-tokenizer self-attention, query versus key slot IDs 0\u201315. Absolute probabilities 0\u20131. The filename identifies a head or the average over four heads. This is token mixing, not a segmentation mask.",
+    "png": "charts/ep000_front_f00179_slot_self_attention.png",
+    "pdf": "charts/ep000_front_f00179_slot_self_attention.pdf"
+  },
+  {
+    "name": "charts/ep000_front_f00179_slot_self_head0",
+    "caption": "AFA post-tokenizer self-attention, query versus key slot IDs 0\u201315. Absolute probabilities 0\u20131. The filename identifies a head or the average over four heads. This is token mixing, not a segmentation mask.",
+    "png": "charts/ep000_front_f00179_slot_self_head0.png",
+    "pdf": "charts/ep000_front_f00179_slot_self_head0.pdf"
+  },
+  {
+    "name": "charts/ep000_front_f00179_slot_self_head1",
+    "caption": "AFA post-tokenizer self-attention, query versus key slot IDs 0\u201315. Absolute probabilities 0\u20131. The filename identifies a head or the average over four heads. This is token mixing, not a segmentation mask.",
+    "png": "charts/ep000_front_f00179_slot_self_head1.png",
+    "pdf": "charts/ep000_front_f00179_slot_self_head1.pdf"
+  },
+  {
+    "name": "charts/ep000_front_f00179_slot_self_head2",
+    "caption": "AFA post-tokenizer self-attention, query versus key slot IDs 0\u201315. Absolute probabilities 0\u20131. The filename identifies a head or the average over four heads. This is token mixing, not a segmentation mask.",
+    "png": "charts/ep000_front_f00179_slot_self_head2.png",
+    "pdf": "charts/ep000_front_f00179_slot_self_head2.pdf"
+  },
+  {
+    "name": "charts/ep000_front_f00179_slot_self_head3",
+    "caption": "AFA post-tokenizer self-attention, query versus key slot IDs 0\u201315. Absolute probabilities 0\u20131. The filename identifies a head or the average over four heads. This is token mixing, not a segmentation mask.",
+    "png": "charts/ep000_front_f00179_slot_self_head3.png",
+    "pdf": "charts/ep000_front_f00179_slot_self_head3.pdf"
+  },
+  {
+    "name": "charts/ep000_front_f00179_spatial_similarity",
+    "caption": "Centered cosine similarity of all sixteen spatial pooling distributions, after subtracting the uniform floor. Shared scale \u22121 to 1. Off-diagonal similarity indicates spatial redundancy.",
+    "png": "charts/ep000_front_f00179_spatial_similarity.png",
+    "pdf": "charts/ep000_front_f00179_spatial_similarity.pdf"
+  },
+  {
+    "name": "charts/ep000_front_f00223_semantic_similarity",
+    "caption": "Cosine similarity of all sixteen projected pooled semantic embeddings. Shared scale \u22121 to 1. This describes feature similarity rather than spatial overlap or annotated object categories.",
+    "png": "charts/ep000_front_f00223_semantic_similarity.png",
+    "pdf": "charts/ep000_front_f00223_semantic_similarity.pdf"
+  },
+  {
+    "name": "charts/ep000_front_f00223_spatial_similarity",
+    "caption": "Centered cosine similarity of all sixteen spatial pooling distributions, after subtracting the uniform floor. Shared scale \u22121 to 1. Off-diagonal similarity indicates spatial redundancy.",
+    "png": "charts/ep000_front_f00223_spatial_similarity.png",
+    "pdf": "charts/ep000_front_f00223_spatial_similarity.pdf"
+  },
+  {
+    "name": "charts/ep000_front_f00307_semantic_similarity",
+    "caption": "Cosine similarity of all sixteen projected pooled semantic embeddings. Shared scale \u22121 to 1. This describes feature similarity rather than spatial overlap or annotated object categories.",
+    "png": "charts/ep000_front_f00307_semantic_similarity.png",
+    "pdf": "charts/ep000_front_f00307_semantic_similarity.pdf"
+  },
+  {
+    "name": "charts/ep000_front_f00307_spatial_similarity",
+    "caption": "Centered cosine similarity of all sixteen spatial pooling distributions, after subtracting the uniform floor. Shared scale \u22121 to 1. Off-diagonal similarity indicates spatial redundancy.",
+    "png": "charts/ep000_front_f00307_spatial_similarity.png",
+    "pdf": "charts/ep000_front_f00307_spatial_similarity.pdf"
+  },
+  {
+    "name": "charts/ep000_front_query_words",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep000_front_query_words.png",
+    "pdf": "charts/ep000_front_query_words.pdf"
+  },
+  {
+    "name": "charts/ep000_front_query_words_head00",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep000_front_query_words_head00.png",
+    "pdf": "charts/ep000_front_query_words_head00.pdf"
+  },
+  {
+    "name": "charts/ep000_front_query_words_head01",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep000_front_query_words_head01.png",
+    "pdf": "charts/ep000_front_query_words_head01.pdf"
+  },
+  {
+    "name": "charts/ep000_front_query_words_head02",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep000_front_query_words_head02.png",
+    "pdf": "charts/ep000_front_query_words_head02.pdf"
+  },
+  {
+    "name": "charts/ep000_front_query_words_head03",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep000_front_query_words_head03.png",
+    "pdf": "charts/ep000_front_query_words_head03.pdf"
+  },
+  {
+    "name": "charts/ep000_front_query_words_head04",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep000_front_query_words_head04.png",
+    "pdf": "charts/ep000_front_query_words_head04.pdf"
+  },
+  {
+    "name": "charts/ep000_front_query_words_head05",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep000_front_query_words_head05.png",
+    "pdf": "charts/ep000_front_query_words_head05.pdf"
+  },
+  {
+    "name": "charts/ep000_front_query_words_head06",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep000_front_query_words_head06.png",
+    "pdf": "charts/ep000_front_query_words_head06.pdf"
+  },
+  {
+    "name": "charts/ep000_front_query_words_head07",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep000_front_query_words_head07.png",
+    "pdf": "charts/ep000_front_query_words_head07.pdf"
+  },
+  {
+    "name": "charts/ep000_front_query_words_head08",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep000_front_query_words_head08.png",
+    "pdf": "charts/ep000_front_query_words_head08.pdf"
+  },
+  {
+    "name": "charts/ep000_front_query_words_head09",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep000_front_query_words_head09.png",
+    "pdf": "charts/ep000_front_query_words_head09.pdf"
+  },
+  {
+    "name": "charts/ep000_front_query_words_head10",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep000_front_query_words_head10.png",
+    "pdf": "charts/ep000_front_query_words_head10.pdf"
+  },
+  {
+    "name": "charts/ep000_front_query_words_head11",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep000_front_query_words_head11.png",
+    "pdf": "charts/ep000_front_query_words_head11.pdf"
+  },
+  {
+    "name": "charts/ep000_wrist_all_frame_metrics",
+    "caption": "All-frame diagnostics for all sixteen queries. Row-major: normalized spatial entropy; ACT slot weight; geometric/semantic component norm ratio; keypoint x; keypoint y; absolute ACT mass assigned to this camera in the two policies. Fixed query colors. Coordinates refer to the full normalized model grid.",
+    "png": "charts/ep000_wrist_all_frame_metrics.png",
+    "pdf": "charts/ep000_wrist_all_frame_metrics.pdf"
+  },
+  {
+    "name": "charts/ep000_wrist_embedding_paths",
+    "caption": "Separate PCA trajectories for the geometric component, pooled semantic component and fused tokens. Colors denote fixed query IDs; paths cover every frame and dots mark the twelve displayed observations. Components are fitted across both episodes within camera; axes from different representation spaces are not interchangeable.",
+    "png": "charts/ep000_wrist_embedding_paths.png",
+    "pdf": "charts/ep000_wrist_embedding_paths.pdf"
+  },
+  {
+    "name": "charts/ep000_wrist_f00019_semantic_similarity",
+    "caption": "Cosine similarity of all sixteen projected pooled semantic embeddings. Shared scale \u22121 to 1. This describes feature similarity rather than spatial overlap or annotated object categories.",
+    "png": "charts/ep000_wrist_f00019_semantic_similarity.png",
+    "pdf": "charts/ep000_wrist_f00019_semantic_similarity.pdf"
+  },
+  {
+    "name": "charts/ep000_wrist_f00019_spatial_similarity",
+    "caption": "Centered cosine similarity of all sixteen spatial pooling distributions, after subtracting the uniform floor. Shared scale \u22121 to 1. Off-diagonal similarity indicates spatial redundancy.",
+    "png": "charts/ep000_wrist_f00019_spatial_similarity.png",
+    "pdf": "charts/ep000_wrist_f00019_spatial_similarity.pdf"
+  },
+  {
+    "name": "charts/ep000_wrist_f00064_semantic_similarity",
+    "caption": "Cosine similarity of all sixteen projected pooled semantic embeddings. Shared scale \u22121 to 1. This describes feature similarity rather than spatial overlap or annotated object categories.",
+    "png": "charts/ep000_wrist_f00064_semantic_similarity.png",
+    "pdf": "charts/ep000_wrist_f00064_semantic_similarity.pdf"
+  },
+  {
+    "name": "charts/ep000_wrist_f00064_spatial_similarity",
+    "caption": "Centered cosine similarity of all sixteen spatial pooling distributions, after subtracting the uniform floor. Shared scale \u22121 to 1. Off-diagonal similarity indicates spatial redundancy.",
+    "png": "charts/ep000_wrist_f00064_spatial_similarity.png",
+    "pdf": "charts/ep000_wrist_f00064_spatial_similarity.pdf"
+  },
+  {
+    "name": "charts/ep000_wrist_f00109_semantic_similarity",
+    "caption": "Cosine similarity of all sixteen projected pooled semantic embeddings. Shared scale \u22121 to 1. This describes feature similarity rather than spatial overlap or annotated object categories.",
+    "png": "charts/ep000_wrist_f00109_semantic_similarity.png",
+    "pdf": "charts/ep000_wrist_f00109_semantic_similarity.pdf"
+  },
+  {
+    "name": "charts/ep000_wrist_f00109_spatial_similarity",
+    "caption": "Centered cosine similarity of all sixteen spatial pooling distributions, after subtracting the uniform floor. Shared scale \u22121 to 1. Off-diagonal similarity indicates spatial redundancy.",
+    "png": "charts/ep000_wrist_f00109_spatial_similarity.png",
+    "pdf": "charts/ep000_wrist_f00109_spatial_similarity.pdf"
+  },
+  {
+    "name": "charts/ep000_wrist_f00179_semantic_similarity",
+    "caption": "Cosine similarity of all sixteen projected pooled semantic embeddings. Shared scale \u22121 to 1. This describes feature similarity rather than spatial overlap or annotated object categories.",
+    "png": "charts/ep000_wrist_f00179_semantic_similarity.png",
+    "pdf": "charts/ep000_wrist_f00179_semantic_similarity.pdf"
+  },
+  {
+    "name": "charts/ep000_wrist_f00179_slot_self_attention",
+    "caption": "AFA post-tokenizer self-attention, query versus key slot IDs 0\u201315. Absolute probabilities 0\u20131. The filename identifies a head or the average over four heads. This is token mixing, not a segmentation mask.",
+    "png": "charts/ep000_wrist_f00179_slot_self_attention.png",
+    "pdf": "charts/ep000_wrist_f00179_slot_self_attention.pdf"
+  },
+  {
+    "name": "charts/ep000_wrist_f00179_slot_self_head0",
+    "caption": "AFA post-tokenizer self-attention, query versus key slot IDs 0\u201315. Absolute probabilities 0\u20131. The filename identifies a head or the average over four heads. This is token mixing, not a segmentation mask.",
+    "png": "charts/ep000_wrist_f00179_slot_self_head0.png",
+    "pdf": "charts/ep000_wrist_f00179_slot_self_head0.pdf"
+  },
+  {
+    "name": "charts/ep000_wrist_f00179_slot_self_head1",
+    "caption": "AFA post-tokenizer self-attention, query versus key slot IDs 0\u201315. Absolute probabilities 0\u20131. The filename identifies a head or the average over four heads. This is token mixing, not a segmentation mask.",
+    "png": "charts/ep000_wrist_f00179_slot_self_head1.png",
+    "pdf": "charts/ep000_wrist_f00179_slot_self_head1.pdf"
+  },
+  {
+    "name": "charts/ep000_wrist_f00179_slot_self_head2",
+    "caption": "AFA post-tokenizer self-attention, query versus key slot IDs 0\u201315. Absolute probabilities 0\u20131. The filename identifies a head or the average over four heads. This is token mixing, not a segmentation mask.",
+    "png": "charts/ep000_wrist_f00179_slot_self_head2.png",
+    "pdf": "charts/ep000_wrist_f00179_slot_self_head2.pdf"
+  },
+  {
+    "name": "charts/ep000_wrist_f00179_slot_self_head3",
+    "caption": "AFA post-tokenizer self-attention, query versus key slot IDs 0\u201315. Absolute probabilities 0\u20131. The filename identifies a head or the average over four heads. This is token mixing, not a segmentation mask.",
+    "png": "charts/ep000_wrist_f00179_slot_self_head3.png",
+    "pdf": "charts/ep000_wrist_f00179_slot_self_head3.pdf"
+  },
+  {
+    "name": "charts/ep000_wrist_f00179_spatial_similarity",
+    "caption": "Centered cosine similarity of all sixteen spatial pooling distributions, after subtracting the uniform floor. Shared scale \u22121 to 1. Off-diagonal similarity indicates spatial redundancy.",
+    "png": "charts/ep000_wrist_f00179_spatial_similarity.png",
+    "pdf": "charts/ep000_wrist_f00179_spatial_similarity.pdf"
+  },
+  {
+    "name": "charts/ep000_wrist_f00239_semantic_similarity",
+    "caption": "Cosine similarity of all sixteen projected pooled semantic embeddings. Shared scale \u22121 to 1. This describes feature similarity rather than spatial overlap or annotated object categories.",
+    "png": "charts/ep000_wrist_f00239_semantic_similarity.png",
+    "pdf": "charts/ep000_wrist_f00239_semantic_similarity.pdf"
+  },
+  {
+    "name": "charts/ep000_wrist_f00239_spatial_similarity",
+    "caption": "Centered cosine similarity of all sixteen spatial pooling distributions, after subtracting the uniform floor. Shared scale \u22121 to 1. Off-diagonal similarity indicates spatial redundancy.",
+    "png": "charts/ep000_wrist_f00239_spatial_similarity.png",
+    "pdf": "charts/ep000_wrist_f00239_spatial_similarity.pdf"
+  },
+  {
+    "name": "charts/ep000_wrist_f00309_semantic_similarity",
+    "caption": "Cosine similarity of all sixteen projected pooled semantic embeddings. Shared scale \u22121 to 1. This describes feature similarity rather than spatial overlap or annotated object categories.",
+    "png": "charts/ep000_wrist_f00309_semantic_similarity.png",
+    "pdf": "charts/ep000_wrist_f00309_semantic_similarity.pdf"
+  },
+  {
+    "name": "charts/ep000_wrist_f00309_spatial_similarity",
+    "caption": "Centered cosine similarity of all sixteen spatial pooling distributions, after subtracting the uniform floor. Shared scale \u22121 to 1. Off-diagonal similarity indicates spatial redundancy.",
+    "png": "charts/ep000_wrist_f00309_spatial_similarity.png",
+    "pdf": "charts/ep000_wrist_f00309_spatial_similarity.pdf"
+  },
+  {
+    "name": "charts/ep000_wrist_query_words",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep000_wrist_query_words.png",
+    "pdf": "charts/ep000_wrist_query_words.pdf"
+  },
+  {
+    "name": "charts/ep000_wrist_query_words_head00",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep000_wrist_query_words_head00.png",
+    "pdf": "charts/ep000_wrist_query_words_head00.pdf"
+  },
+  {
+    "name": "charts/ep000_wrist_query_words_head01",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep000_wrist_query_words_head01.png",
+    "pdf": "charts/ep000_wrist_query_words_head01.pdf"
+  },
+  {
+    "name": "charts/ep000_wrist_query_words_head02",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep000_wrist_query_words_head02.png",
+    "pdf": "charts/ep000_wrist_query_words_head02.pdf"
+  },
+  {
+    "name": "charts/ep000_wrist_query_words_head03",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep000_wrist_query_words_head03.png",
+    "pdf": "charts/ep000_wrist_query_words_head03.pdf"
+  },
+  {
+    "name": "charts/ep000_wrist_query_words_head04",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep000_wrist_query_words_head04.png",
+    "pdf": "charts/ep000_wrist_query_words_head04.pdf"
+  },
+  {
+    "name": "charts/ep000_wrist_query_words_head05",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep000_wrist_query_words_head05.png",
+    "pdf": "charts/ep000_wrist_query_words_head05.pdf"
+  },
+  {
+    "name": "charts/ep000_wrist_query_words_head06",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep000_wrist_query_words_head06.png",
+    "pdf": "charts/ep000_wrist_query_words_head06.pdf"
+  },
+  {
+    "name": "charts/ep000_wrist_query_words_head07",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep000_wrist_query_words_head07.png",
+    "pdf": "charts/ep000_wrist_query_words_head07.pdf"
+  },
+  {
+    "name": "charts/ep000_wrist_query_words_head08",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep000_wrist_query_words_head08.png",
+    "pdf": "charts/ep000_wrist_query_words_head08.pdf"
+  },
+  {
+    "name": "charts/ep000_wrist_query_words_head09",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep000_wrist_query_words_head09.png",
+    "pdf": "charts/ep000_wrist_query_words_head09.pdf"
+  },
+  {
+    "name": "charts/ep000_wrist_query_words_head10",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep000_wrist_query_words_head10.png",
+    "pdf": "charts/ep000_wrist_query_words_head10.pdf"
+  },
+  {
+    "name": "charts/ep000_wrist_query_words_head11",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep000_wrist_query_words_head11.png",
+    "pdf": "charts/ep000_wrist_query_words_head11.pdf"
+  },
+  {
+    "name": "charts/ep049_action_replay",
+    "caption": "Offline action replay across all frames. Six robot dimensions: recorded state, recorded executed commands, and first action in the AFA and TurboVLA predicted chunks. Predictions are not executed; this is descriptive command agreement on a fixed recorded observation stream, not closed-loop task performance.",
+    "png": "charts/ep049_action_replay.png",
+    "pdf": "charts/ep049_action_replay.pdf"
+  },
+  {
+    "name": "charts/ep049_front_all_frame_metrics",
+    "caption": "All-frame diagnostics for all sixteen queries. Row-major: normalized spatial entropy; ACT slot weight; geometric/semantic component norm ratio; keypoint x; keypoint y; absolute ACT mass assigned to this camera in the two policies. Fixed query colors. Coordinates refer to the full normalized model grid.",
+    "png": "charts/ep049_front_all_frame_metrics.png",
+    "pdf": "charts/ep049_front_all_frame_metrics.pdf"
+  },
+  {
+    "name": "charts/ep049_front_embedding_paths",
+    "caption": "Separate PCA trajectories for the geometric component, pooled semantic component and fused tokens. Colors denote fixed query IDs; paths cover every frame and dots mark the twelve displayed observations. Components are fitted across both episodes within camera; axes from different representation spaces are not interchangeable.",
+    "png": "charts/ep049_front_embedding_paths.png",
+    "pdf": "charts/ep049_front_embedding_paths.pdf"
+  },
+  {
+    "name": "charts/ep049_front_f00003_semantic_similarity",
+    "caption": "Cosine similarity of all sixteen projected pooled semantic embeddings. Shared scale \u22121 to 1. This describes feature similarity rather than spatial overlap or annotated object categories.",
+    "png": "charts/ep049_front_f00003_semantic_similarity.png",
+    "pdf": "charts/ep049_front_f00003_semantic_similarity.pdf"
+  },
+  {
+    "name": "charts/ep049_front_f00003_spatial_similarity",
+    "caption": "Centered cosine similarity of all sixteen spatial pooling distributions, after subtracting the uniform floor. Shared scale \u22121 to 1. Off-diagonal similarity indicates spatial redundancy.",
+    "png": "charts/ep049_front_f00003_spatial_similarity.png",
+    "pdf": "charts/ep049_front_f00003_spatial_similarity.pdf"
+  },
+  {
+    "name": "charts/ep049_front_f00061_semantic_similarity",
+    "caption": "Cosine similarity of all sixteen projected pooled semantic embeddings. Shared scale \u22121 to 1. This describes feature similarity rather than spatial overlap or annotated object categories.",
+    "png": "charts/ep049_front_f00061_semantic_similarity.png",
+    "pdf": "charts/ep049_front_f00061_semantic_similarity.pdf"
+  },
+  {
+    "name": "charts/ep049_front_f00061_spatial_similarity",
+    "caption": "Centered cosine similarity of all sixteen spatial pooling distributions, after subtracting the uniform floor. Shared scale \u22121 to 1. Off-diagonal similarity indicates spatial redundancy.",
+    "png": "charts/ep049_front_f00061_spatial_similarity.png",
+    "pdf": "charts/ep049_front_f00061_spatial_similarity.pdf"
+  },
+  {
+    "name": "charts/ep049_front_f00087_semantic_similarity",
+    "caption": "Cosine similarity of all sixteen projected pooled semantic embeddings. Shared scale \u22121 to 1. This describes feature similarity rather than spatial overlap or annotated object categories.",
+    "png": "charts/ep049_front_f00087_semantic_similarity.png",
+    "pdf": "charts/ep049_front_f00087_semantic_similarity.pdf"
+  },
+  {
+    "name": "charts/ep049_front_f00087_spatial_similarity",
+    "caption": "Centered cosine similarity of all sixteen spatial pooling distributions, after subtracting the uniform floor. Shared scale \u22121 to 1. Off-diagonal similarity indicates spatial redundancy.",
+    "png": "charts/ep049_front_f00087_spatial_similarity.png",
+    "pdf": "charts/ep049_front_f00087_spatial_similarity.pdf"
+  },
+  {
+    "name": "charts/ep049_front_f00129_semantic_similarity",
+    "caption": "Cosine similarity of all sixteen projected pooled semantic embeddings. Shared scale \u22121 to 1. This describes feature similarity rather than spatial overlap or annotated object categories.",
+    "png": "charts/ep049_front_f00129_semantic_similarity.png",
+    "pdf": "charts/ep049_front_f00129_semantic_similarity.pdf"
+  },
+  {
+    "name": "charts/ep049_front_f00129_slot_self_attention",
+    "caption": "AFA post-tokenizer self-attention, query versus key slot IDs 0\u201315. Absolute probabilities 0\u20131. The filename identifies a head or the average over four heads. This is token mixing, not a segmentation mask.",
+    "png": "charts/ep049_front_f00129_slot_self_attention.png",
+    "pdf": "charts/ep049_front_f00129_slot_self_attention.pdf"
+  },
+  {
+    "name": "charts/ep049_front_f00129_slot_self_head0",
+    "caption": "AFA post-tokenizer self-attention, query versus key slot IDs 0\u201315. Absolute probabilities 0\u20131. The filename identifies a head or the average over four heads. This is token mixing, not a segmentation mask.",
+    "png": "charts/ep049_front_f00129_slot_self_head0.png",
+    "pdf": "charts/ep049_front_f00129_slot_self_head0.pdf"
+  },
+  {
+    "name": "charts/ep049_front_f00129_slot_self_head1",
+    "caption": "AFA post-tokenizer self-attention, query versus key slot IDs 0\u201315. Absolute probabilities 0\u20131. The filename identifies a head or the average over four heads. This is token mixing, not a segmentation mask.",
+    "png": "charts/ep049_front_f00129_slot_self_head1.png",
+    "pdf": "charts/ep049_front_f00129_slot_self_head1.pdf"
+  },
+  {
+    "name": "charts/ep049_front_f00129_slot_self_head2",
+    "caption": "AFA post-tokenizer self-attention, query versus key slot IDs 0\u201315. Absolute probabilities 0\u20131. The filename identifies a head or the average over four heads. This is token mixing, not a segmentation mask.",
+    "png": "charts/ep049_front_f00129_slot_self_head2.png",
+    "pdf": "charts/ep049_front_f00129_slot_self_head2.pdf"
+  },
+  {
+    "name": "charts/ep049_front_f00129_slot_self_head3",
+    "caption": "AFA post-tokenizer self-attention, query versus key slot IDs 0\u201315. Absolute probabilities 0\u20131. The filename identifies a head or the average over four heads. This is token mixing, not a segmentation mask.",
+    "png": "charts/ep049_front_f00129_slot_self_head3.png",
+    "pdf": "charts/ep049_front_f00129_slot_self_head3.pdf"
+  },
+  {
+    "name": "charts/ep049_front_f00129_spatial_similarity",
+    "caption": "Centered cosine similarity of all sixteen spatial pooling distributions, after subtracting the uniform floor. Shared scale \u22121 to 1. Off-diagonal similarity indicates spatial redundancy.",
+    "png": "charts/ep049_front_f00129_spatial_similarity.png",
+    "pdf": "charts/ep049_front_f00129_spatial_similarity.pdf"
+  },
+  {
+    "name": "charts/ep049_front_f00183_semantic_similarity",
+    "caption": "Cosine similarity of all sixteen projected pooled semantic embeddings. Shared scale \u22121 to 1. This describes feature similarity rather than spatial overlap or annotated object categories.",
+    "png": "charts/ep049_front_f00183_semantic_similarity.png",
+    "pdf": "charts/ep049_front_f00183_semantic_similarity.pdf"
+  },
+  {
+    "name": "charts/ep049_front_f00183_spatial_similarity",
+    "caption": "Centered cosine similarity of all sixteen spatial pooling distributions, after subtracting the uniform floor. Shared scale \u22121 to 1. Off-diagonal similarity indicates spatial redundancy.",
+    "png": "charts/ep049_front_f00183_spatial_similarity.png",
+    "pdf": "charts/ep049_front_f00183_spatial_similarity.pdf"
+  },
+  {
+    "name": "charts/ep049_front_f00245_semantic_similarity",
+    "caption": "Cosine similarity of all sixteen projected pooled semantic embeddings. Shared scale \u22121 to 1. This describes feature similarity rather than spatial overlap or annotated object categories.",
+    "png": "charts/ep049_front_f00245_semantic_similarity.png",
+    "pdf": "charts/ep049_front_f00245_semantic_similarity.pdf"
+  },
+  {
+    "name": "charts/ep049_front_f00245_spatial_similarity",
+    "caption": "Centered cosine similarity of all sixteen spatial pooling distributions, after subtracting the uniform floor. Shared scale \u22121 to 1. Off-diagonal similarity indicates spatial redundancy.",
+    "png": "charts/ep049_front_f00245_spatial_similarity.png",
+    "pdf": "charts/ep049_front_f00245_spatial_similarity.pdf"
+  },
+  {
+    "name": "charts/ep049_front_query_words",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep049_front_query_words.png",
+    "pdf": "charts/ep049_front_query_words.pdf"
+  },
+  {
+    "name": "charts/ep049_front_query_words_head00",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep049_front_query_words_head00.png",
+    "pdf": "charts/ep049_front_query_words_head00.pdf"
+  },
+  {
+    "name": "charts/ep049_front_query_words_head01",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep049_front_query_words_head01.png",
+    "pdf": "charts/ep049_front_query_words_head01.pdf"
+  },
+  {
+    "name": "charts/ep049_front_query_words_head02",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep049_front_query_words_head02.png",
+    "pdf": "charts/ep049_front_query_words_head02.pdf"
+  },
+  {
+    "name": "charts/ep049_front_query_words_head03",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep049_front_query_words_head03.png",
+    "pdf": "charts/ep049_front_query_words_head03.pdf"
+  },
+  {
+    "name": "charts/ep049_front_query_words_head04",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep049_front_query_words_head04.png",
+    "pdf": "charts/ep049_front_query_words_head04.pdf"
+  },
+  {
+    "name": "charts/ep049_front_query_words_head05",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep049_front_query_words_head05.png",
+    "pdf": "charts/ep049_front_query_words_head05.pdf"
+  },
+  {
+    "name": "charts/ep049_front_query_words_head06",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep049_front_query_words_head06.png",
+    "pdf": "charts/ep049_front_query_words_head06.pdf"
+  },
+  {
+    "name": "charts/ep049_front_query_words_head07",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep049_front_query_words_head07.png",
+    "pdf": "charts/ep049_front_query_words_head07.pdf"
+  },
+  {
+    "name": "charts/ep049_front_query_words_head08",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep049_front_query_words_head08.png",
+    "pdf": "charts/ep049_front_query_words_head08.pdf"
+  },
+  {
+    "name": "charts/ep049_front_query_words_head09",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep049_front_query_words_head09.png",
+    "pdf": "charts/ep049_front_query_words_head09.pdf"
+  },
+  {
+    "name": "charts/ep049_front_query_words_head10",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep049_front_query_words_head10.png",
+    "pdf": "charts/ep049_front_query_words_head10.pdf"
+  },
+  {
+    "name": "charts/ep049_front_query_words_head11",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep049_front_query_words_head11.png",
+    "pdf": "charts/ep049_front_query_words_head11.pdf"
+  },
+  {
+    "name": "charts/ep049_wrist_all_frame_metrics",
+    "caption": "All-frame diagnostics for all sixteen queries. Row-major: normalized spatial entropy; ACT slot weight; geometric/semantic component norm ratio; keypoint x; keypoint y; absolute ACT mass assigned to this camera in the two policies. Fixed query colors. Coordinates refer to the full normalized model grid.",
+    "png": "charts/ep049_wrist_all_frame_metrics.png",
+    "pdf": "charts/ep049_wrist_all_frame_metrics.pdf"
+  },
+  {
+    "name": "charts/ep049_wrist_embedding_paths",
+    "caption": "Separate PCA trajectories for the geometric component, pooled semantic component and fused tokens. Colors denote fixed query IDs; paths cover every frame and dots mark the twelve displayed observations. Components are fitted across both episodes within camera; axes from different representation spaces are not interchangeable.",
+    "png": "charts/ep049_wrist_embedding_paths.png",
+    "pdf": "charts/ep049_wrist_embedding_paths.pdf"
+  },
+  {
+    "name": "charts/ep049_wrist_f00005_semantic_similarity",
+    "caption": "Cosine similarity of all sixteen projected pooled semantic embeddings. Shared scale \u22121 to 1. This describes feature similarity rather than spatial overlap or annotated object categories.",
+    "png": "charts/ep049_wrist_f00005_semantic_similarity.png",
+    "pdf": "charts/ep049_wrist_f00005_semantic_similarity.pdf"
+  },
+  {
+    "name": "charts/ep049_wrist_f00005_spatial_similarity",
+    "caption": "Centered cosine similarity of all sixteen spatial pooling distributions, after subtracting the uniform floor. Shared scale \u22121 to 1. Off-diagonal similarity indicates spatial redundancy.",
+    "png": "charts/ep049_wrist_f00005_spatial_similarity.png",
+    "pdf": "charts/ep049_wrist_f00005_spatial_similarity.pdf"
+  },
+  {
+    "name": "charts/ep049_wrist_f00061_semantic_similarity",
+    "caption": "Cosine similarity of all sixteen projected pooled semantic embeddings. Shared scale \u22121 to 1. This describes feature similarity rather than spatial overlap or annotated object categories.",
+    "png": "charts/ep049_wrist_f00061_semantic_similarity.png",
+    "pdf": "charts/ep049_wrist_f00061_semantic_similarity.pdf"
+  },
+  {
+    "name": "charts/ep049_wrist_f00061_spatial_similarity",
+    "caption": "Centered cosine similarity of all sixteen spatial pooling distributions, after subtracting the uniform floor. Shared scale \u22121 to 1. Off-diagonal similarity indicates spatial redundancy.",
+    "png": "charts/ep049_wrist_f00061_spatial_similarity.png",
+    "pdf": "charts/ep049_wrist_f00061_spatial_similarity.pdf"
+  },
+  {
+    "name": "charts/ep049_wrist_f00084_semantic_similarity",
+    "caption": "Cosine similarity of all sixteen projected pooled semantic embeddings. Shared scale \u22121 to 1. This describes feature similarity rather than spatial overlap or annotated object categories.",
+    "png": "charts/ep049_wrist_f00084_semantic_similarity.png",
+    "pdf": "charts/ep049_wrist_f00084_semantic_similarity.pdf"
+  },
+  {
+    "name": "charts/ep049_wrist_f00084_spatial_similarity",
+    "caption": "Centered cosine similarity of all sixteen spatial pooling distributions, after subtracting the uniform floor. Shared scale \u22121 to 1. Off-diagonal similarity indicates spatial redundancy.",
+    "png": "charts/ep049_wrist_f00084_spatial_similarity.png",
+    "pdf": "charts/ep049_wrist_f00084_spatial_similarity.pdf"
+  },
+  {
+    "name": "charts/ep049_wrist_f00145_semantic_similarity",
+    "caption": "Cosine similarity of all sixteen projected pooled semantic embeddings. Shared scale \u22121 to 1. This describes feature similarity rather than spatial overlap or annotated object categories.",
+    "png": "charts/ep049_wrist_f00145_semantic_similarity.png",
+    "pdf": "charts/ep049_wrist_f00145_semantic_similarity.pdf"
+  },
+  {
+    "name": "charts/ep049_wrist_f00145_slot_self_attention",
+    "caption": "AFA post-tokenizer self-attention, query versus key slot IDs 0\u201315. Absolute probabilities 0\u20131. The filename identifies a head or the average over four heads. This is token mixing, not a segmentation mask.",
+    "png": "charts/ep049_wrist_f00145_slot_self_attention.png",
+    "pdf": "charts/ep049_wrist_f00145_slot_self_attention.pdf"
+  },
+  {
+    "name": "charts/ep049_wrist_f00145_slot_self_head0",
+    "caption": "AFA post-tokenizer self-attention, query versus key slot IDs 0\u201315. Absolute probabilities 0\u20131. The filename identifies a head or the average over four heads. This is token mixing, not a segmentation mask.",
+    "png": "charts/ep049_wrist_f00145_slot_self_head0.png",
+    "pdf": "charts/ep049_wrist_f00145_slot_self_head0.pdf"
+  },
+  {
+    "name": "charts/ep049_wrist_f00145_slot_self_head1",
+    "caption": "AFA post-tokenizer self-attention, query versus key slot IDs 0\u201315. Absolute probabilities 0\u20131. The filename identifies a head or the average over four heads. This is token mixing, not a segmentation mask.",
+    "png": "charts/ep049_wrist_f00145_slot_self_head1.png",
+    "pdf": "charts/ep049_wrist_f00145_slot_self_head1.pdf"
+  },
+  {
+    "name": "charts/ep049_wrist_f00145_slot_self_head2",
+    "caption": "AFA post-tokenizer self-attention, query versus key slot IDs 0\u201315. Absolute probabilities 0\u20131. The filename identifies a head or the average over four heads. This is token mixing, not a segmentation mask.",
+    "png": "charts/ep049_wrist_f00145_slot_self_head2.png",
+    "pdf": "charts/ep049_wrist_f00145_slot_self_head2.pdf"
+  },
+  {
+    "name": "charts/ep049_wrist_f00145_slot_self_head3",
+    "caption": "AFA post-tokenizer self-attention, query versus key slot IDs 0\u201315. Absolute probabilities 0\u20131. The filename identifies a head or the average over four heads. This is token mixing, not a segmentation mask.",
+    "png": "charts/ep049_wrist_f00145_slot_self_head3.png",
+    "pdf": "charts/ep049_wrist_f00145_slot_self_head3.pdf"
+  },
+  {
+    "name": "charts/ep049_wrist_f00145_spatial_similarity",
+    "caption": "Centered cosine similarity of all sixteen spatial pooling distributions, after subtracting the uniform floor. Shared scale \u22121 to 1. Off-diagonal similarity indicates spatial redundancy.",
+    "png": "charts/ep049_wrist_f00145_spatial_similarity.png",
+    "pdf": "charts/ep049_wrist_f00145_spatial_similarity.pdf"
+  },
+  {
+    "name": "charts/ep049_wrist_f00187_semantic_similarity",
+    "caption": "Cosine similarity of all sixteen projected pooled semantic embeddings. Shared scale \u22121 to 1. This describes feature similarity rather than spatial overlap or annotated object categories.",
+    "png": "charts/ep049_wrist_f00187_semantic_similarity.png",
+    "pdf": "charts/ep049_wrist_f00187_semantic_similarity.pdf"
+  },
+  {
+    "name": "charts/ep049_wrist_f00187_spatial_similarity",
+    "caption": "Centered cosine similarity of all sixteen spatial pooling distributions, after subtracting the uniform floor. Shared scale \u22121 to 1. Off-diagonal similarity indicates spatial redundancy.",
+    "png": "charts/ep049_wrist_f00187_spatial_similarity.png",
+    "pdf": "charts/ep049_wrist_f00187_spatial_similarity.pdf"
+  },
+  {
+    "name": "charts/ep049_wrist_f00243_semantic_similarity",
+    "caption": "Cosine similarity of all sixteen projected pooled semantic embeddings. Shared scale \u22121 to 1. This describes feature similarity rather than spatial overlap or annotated object categories.",
+    "png": "charts/ep049_wrist_f00243_semantic_similarity.png",
+    "pdf": "charts/ep049_wrist_f00243_semantic_similarity.pdf"
+  },
+  {
+    "name": "charts/ep049_wrist_f00243_spatial_similarity",
+    "caption": "Centered cosine similarity of all sixteen spatial pooling distributions, after subtracting the uniform floor. Shared scale \u22121 to 1. Off-diagonal similarity indicates spatial redundancy.",
+    "png": "charts/ep049_wrist_f00243_spatial_similarity.png",
+    "pdf": "charts/ep049_wrist_f00243_spatial_similarity.pdf"
+  },
+  {
+    "name": "charts/ep049_wrist_query_words",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep049_wrist_query_words.png",
+    "pdf": "charts/ep049_wrist_query_words.pdf"
+  },
+  {
+    "name": "charts/ep049_wrist_query_words_head00",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep049_wrist_query_words_head00.png",
+    "pdf": "charts/ep049_wrist_query_words_head00.pdf"
+  },
+  {
+    "name": "charts/ep049_wrist_query_words_head01",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep049_wrist_query_words_head01.png",
+    "pdf": "charts/ep049_wrist_query_words_head01.pdf"
+  },
+  {
+    "name": "charts/ep049_wrist_query_words_head02",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep049_wrist_query_words_head02.png",
+    "pdf": "charts/ep049_wrist_query_words_head02.pdf"
+  },
+  {
+    "name": "charts/ep049_wrist_query_words_head03",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep049_wrist_query_words_head03.png",
+    "pdf": "charts/ep049_wrist_query_words_head03.pdf"
+  },
+  {
+    "name": "charts/ep049_wrist_query_words_head04",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep049_wrist_query_words_head04.png",
+    "pdf": "charts/ep049_wrist_query_words_head04.pdf"
+  },
+  {
+    "name": "charts/ep049_wrist_query_words_head05",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep049_wrist_query_words_head05.png",
+    "pdf": "charts/ep049_wrist_query_words_head05.pdf"
+  },
+  {
+    "name": "charts/ep049_wrist_query_words_head06",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep049_wrist_query_words_head06.png",
+    "pdf": "charts/ep049_wrist_query_words_head06.pdf"
+  },
+  {
+    "name": "charts/ep049_wrist_query_words_head07",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep049_wrist_query_words_head07.png",
+    "pdf": "charts/ep049_wrist_query_words_head07.pdf"
+  },
+  {
+    "name": "charts/ep049_wrist_query_words_head08",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep049_wrist_query_words_head08.png",
+    "pdf": "charts/ep049_wrist_query_words_head08.pdf"
+  },
+  {
+    "name": "charts/ep049_wrist_query_words_head09",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep049_wrist_query_words_head09.png",
+    "pdf": "charts/ep049_wrist_query_words_head09.pdf"
+  },
+  {
+    "name": "charts/ep049_wrist_query_words_head10",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep049_wrist_query_words_head10.png",
+    "pdf": "charts/ep049_wrist_query_words_head10.pdf"
+  },
+  {
+    "name": "charts/ep049_wrist_query_words_head11",
+    "caption": "Early-BERT query-to-word attention, all sixteen query rows and all BERT tokens including special tokens. Absolute probability scale 0\u20131. The filename identifies an individual head, or the average across twelve heads. These weights are temporally invariant for this fixed instruction and camera.",
+    "png": "charts/ep049_wrist_query_words_head11.png",
+    "pdf": "charts/ep049_wrist_query_words_head11.pdf"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "repo_id": "Giannipe/Multi-task-verified",
+  "revision": "9bd90bef6481029a3e00e3527c8f67ac04bc5b85",
+  "local_root": "/data2/gpepe/datasets/Multi-task-verified-9bd90be",
+  "info_sha256": "f517524b7fd47c914290df37b28a7c07de8997648a8118d58895754c39bb980b",
+  "task_slug": "plush",
+  "title": "Peluche",
+  "task_id": 2,
+  "instruction": "Grab the plush and place in the box",
+  "episode_indices": [
+    50,
+    99
+  ],
+  "expected_frames": 660,
+  "condition": "verified_demo",
+  "training_demonstrations": true,
+  "selection": "Same first and last verified episode used in prior analyses; every frame"
+}

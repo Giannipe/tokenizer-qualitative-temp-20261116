@@ -1,5 +1,7 @@
 # AFA tokenizer: figure qualitative offline
 
+[Cubo e peluche: diagnostica integrale delle due demo verificate per task](VERIFIED_DEMOS.md)
+
 [Successgrasp: diagnostica completa di tutti i frame e tutti gli slot](successgrasp/GALLERY.md)
 
 [Tutti i frame dei 12 episodi: nuove immagini pulite](full_episodes/GALLERY.md)

@@ -1,0 +1,29 @@
+{
+  "schema": "verified_demo_full_diagnostics_v1",
+  "wrapper_sha256": "24108beffce38a80be2f65e6ec7441595819e412b2416cd693dde7dd2e06664f",
+  "base_source_sha256": "9563a0badd4d13c33d1e913649372d60c9c4bdef17c38c0a7e2137981c333c74",
+  "fullqk_source_sha256": "ab3ed0ec53c2e8f9172ff2a7336c7adc7aaa8d78040a5e4411098534596fdcf0",
+  "full_matrix_qk_all_dino_layers": true,
+  "selected_episode_indices": [
+    0,
+    49
+  ],
+  "source": {
+    "repo_id": "Giannipe/Multi-task-verified",
+    "revision": "9bd90bef6481029a3e00e3527c8f67ac04bc5b85",
+    "local_root": "/data2/gpepe/datasets/Multi-task-verified-9bd90be",
+    "info_sha256": "f517524b7fd47c914290df37b28a7c07de8997648a8118d58895754c39bb980b",
+    "task_slug": "cube",
+    "title": "Cubo",
+    "task_id": 1,
+    "instruction": "Grab the red cube and place on the gray block",
+    "episode_indices": [
+      0,
+      49
+    ],
+    "expected_frames": 568,
+    "condition": "verified_demo",
+    "training_demonstrations": true,
+    "selection": "Same first and last verified episode used in prior analyses; every frame"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "all_arrays_finite": true,
+  "max_fusion_error": 0.0,
+  "max_routing_sum_error": 4.76837158203125e-07,
+  "max_keypoint_error": 7.199540382751834e-07,
+  "hook_error": 0.0,
+  "max_video_sync_error_s": 4.450480162176973e-07,
+  "total_frames_per_policy": 660,
+  "camera_views_per_policy": 1320,
+  "slot_metric_rows": 21120,
+  "figure_pairs": 302,
+  "clean_image_pairs": 172,
+  "charts": 130,
+  "viewer_frames": 660,
+  "viewer_views": 1320,
+  "condition": "verified_demo",
+  "task_slug": "plush",
+  "episode_indices": [
+    50,
+    99
+  ],
+  "raw_archives_verified": 1320,
+  "all_raw_arrays_finite": true,
+  "paired_rgb_state_actions_identical": true,
+  "detailed_errors": {
+    "routing_sum": 4.76837158203125e-07,
+    "keypoint_reconstruction": 7.199540382751834e-07,
+    "fused_sum": 0.0,
+    "dino_row_sum": 4.76837158203125e-07,
+    "act_row_sum": 2.384185791015625e-07,
+    "act_weight_reconstruction": 2.2351741790771484e-08,
+    "dino_last_agreement": 6.705522537231445e-08,
+    "language_temporal_change": 0.0,
+    "queries_temporal_change": 0.0,
+    "transformer_replay": 0.0
+  },
+  "png_pdf_pairs_verified": 322,
+  "viewer_embedded_frames_verified": 660,
+  "all_viewer_rgb_lossless": true
+}
