@@ -1,5 +1,7 @@
 # AFA tokenizer: figure qualitative offline
 
+[Appendice: competitive routing, mappe per-slot e confronto senza competizione](routing_appendix/GALLERY.md)
+
 [Cubo e peluche: diagnostica integrale delle due demo verificate per task](VERIFIED_DEMOS.md)
 
 [Successgrasp: diagnostica completa di tutti i frame e tutti gli slot](successgrasp/GALLERY.md)

@@ -1,0 +1,10 @@
+{
+  "png_pdf_pairs": 52,
+  "arrays": 12,
+  "all_arrays_finite": true,
+  "hook_prediction_max_error": 0.0,
+  "routing_reconstruction_max_error": 1.1920928955078125e-07,
+  "pooling_reconstruction_max_error": 1.1920928955078125e-07,
+  "argmax_scores_equals_argmax_responsibilities": true,
+  "script_sha256": "6739c9a34793df790e92f08f7079b4dd4bbe2bc2be7324f0a1bd474b1946e4e9"
+}
